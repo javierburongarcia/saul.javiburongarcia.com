@@ -1,0 +1,28 @@
+---
+layout: lesson
+title: Sampling
+category: lesson
+tag: drawing and representation
+permalink: /drawing-and-representation/sampling/
+subtitle: este es el subtitulo de la lesson sampling de drawing and representation
+slideshow:
+bibliography:
+ - title: Este es el título primero de la bibliografia
+   url: http://www.example.com
+ - title: Este es el título segundo de la bibliografia
+   url: http://www.example2.com
+resources:
+ - title: Este es el título primero
+   url: http://www.example.com
+   type: pdf-document
+ - title: Este es el título segundo
+   url: http://www.example2.com
+   type: youtube-playlist
+ - title: Este es el título tercero
+   url: http://www.example2.com
+   type: delicious-stack
+related_lessons:
+ - title: Intro
+---
+
+este es el texto de lesson sampling drawing and representation

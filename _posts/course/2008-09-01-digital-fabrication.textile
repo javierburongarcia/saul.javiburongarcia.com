@@ -1,0 +1,14 @@
+---
+layout: course
+title: digital fabrication
+category: course
+permalink: /digital-fabrication/
+subtitle: este es el subtitulo del course digital fabrication
+bibliography:
+ - title: Este es el título primero
+   url: http://www.example.com
+ - title: Este es el título segundo
+   url: http://www.example2.com
+---
+
+este es el texto de digital fabrication

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+	<title>{{ page.title }}</title>
+	{% include _scripts.html %}
+</head>
+<body>
+	<hgroup>
+		<h1>{{ page.title }}</h1>
+		<h2>{{ page.subtitle }}</h2>
+	</hgroup>
+	<section>
+		{{ content }}
+		<ul>
+			{% for entry in page.bibliography %}
+			<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</section>
+	<section>
+		<ul>
+			{% for entry in page.resources %}
+			<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+			{% endfor %}
+		</ul>
+		<ul>
+			{% for lesson in site.categories.lesson %}
+				{% for entry in page.related_lessons %}
+				{% if lesson.title == entry.title %}
+				<li>
+					<a href="{{ lesson.url }}">
+					<div>
+					</div>
+					<span>{{ lesson.title }}<span>
+					<span>{{ lesson.subtitle }}</span>
+					</a>
+				</li>
+				{% endif %}
+				{% endfor %}
+			{% endfor %}
+		</ul>
+	</section>
+</body>

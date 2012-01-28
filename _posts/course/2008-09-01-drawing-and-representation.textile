@@ -1,0 +1,9 @@
+---
+layout: course
+title: drawing and representation
+category: course
+permalink: /drawing-and-representation/
+subtitle: este es el subtitulo del course drawing and representation
+---
+
+este es el texto del course drawing and representation

@@ -1,0 +1,28 @@
+---
+layout: lesson
+title: introduction
+category: lesson
+tag: digital fabrication
+permalink: /digital-fabrication/intro/
+subtitle: este es el subtitulo de la lesson introducción a digital fabrication
+slideshow:
+bibliography:
+ - title: Este es el título primero de la bibliografia
+   url: http://www.example.com
+ - title: Este es el título segundo de la bibliografia
+   url: http://www.example2.com
+resources:
+ - title: Este es el título primero
+   url: http://www.example.com
+   type: pdf-document
+ - title: Este es el título segundo
+   url: http://www.example2.com
+   type: youtube-playlist
+ - title: Este es el título tercero
+   url: http://www.example2.com
+   type: delicious-stack
+related_lessons:
+ - title: Sampling
+---
+
+este es el texto de la introducción a digital fabrication

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+	<title>{{ page.title }}</title>
+	{% include _scripts.html %}
+</head>
+<body>
+	<hgroup>
+		<h1>{{ title }}</h1>
+		<h2>{{ page.subtitle }}</h2>
+	</hgroup>
+	<ul>
+	{% for course in site.categories.course %}
+		<li><a href="{{ course.url }}">{{ course.title }}</a></li>
+	{% endfor %}
+	</ul>
+</body>
