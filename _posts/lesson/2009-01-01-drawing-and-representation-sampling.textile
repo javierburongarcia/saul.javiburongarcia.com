@@ -5,6 +5,7 @@ category: lesson
 tag: drawing and representation
 permalink: /drawing-and-representation/sampling/
 subtitle: este es el subtitulo de la lesson sampling de drawing and representation
+image: farm8.staticflickr.com/7156/6672244315_a08906f26b
 slideshow:
 bibliography:
  - title: Este es el título primero de la bibliografia
@@ -13,16 +14,23 @@ bibliography:
    url: http://www.example2.com
 resources:
  - title: Este es el título primero
+   subtitle: Este es el subtítulo primero
    url: http://www.example.com
    type: pdf-document
  - title: Este es el título segundo
+   subtitle: Este es el subtítulo primero
    url: http://www.example2.com
    type: youtube-playlist
  - title: Este es el título tercero
+   subtitle: Este es el subtítulo primero
    url: http://www.example2.com
    type: delicious-stack
 related_lessons:
- - title: Intro
+ - title: Introduction
 ---
 
-este es el texto de lesson sampling drawing and representation
+Las organizaciones que visitamos eran muy diferentes entre sí, tanto en origen como por tamaño. Algunas nacieron de la iniciativa pública o con un una amplia participación de lo público, como el consorcio "MaRS":http://www.marsdd.com/, dedicado a la investigación médica y el emprendimiento tecnológico. Otras nacieron exclusivamente de la iniciativa privada, con gran esfuerzo y dedicación por parte de sus promotores, como el caso de "Camaraderie":http://www.espaciocreativo.colaborativa.eu/blog/referencias/camaraderie-toronto/. Cada una de ellas se dirige a perfiles distintos de emprendedores. Conocer esta diversidad de iniciativas y su complementareidad ha sido de las experiencias más reveladoras del viaje.
+
+Incluye una entrevista a John Coburn, artista residente en "Artscape Wychwood":http://www.torontoartscape.on.ca/places-spaces/artscape-wychwood-barns, que tuvo la amabilidad de recibirnos en su casa y que nos contó las maravillas de vivir y trabajar en proximidad con otros artistas.
+
+Rodamos el video con la fantástica cámara HD de bolsillo "Kodak Zi8":http://reviews.cnet.com/digital-camcorders/kodak-zi8-pocket-video/4505-6500_7-33740624.html y un trípode manfrotto. Esta cámara es muy recomendable: graba en HD con gran calidad de imagen, tiene un precio ajustadísimo y cuenta con jack de conexión para micrófono externo –una característica básica si quieres hacer entrevistas– Para la edición utilizamos "Final Cut Pro":http://www.apple.com/es/finalcutpro/

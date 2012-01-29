@@ -5,23 +5,24 @@
 	{% include _scripts.html %}
 </head>
 <body>
-	<hgroup>
-		<h1>{{ page.title }}</h1>
-		<h2>{{ page.subtitle }}</h2>
-	</hgroup>
-	<section>
-		{{ content }}
-	</section>
-	<ul>
-		{% for entry in page.bibliography %}
-		<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
-		{% endfor %}
-	</ul>
-	<ul>
-	{% for lesson in site.categories.lesson %}
-		{% if page.title == lesson.tag %}
-		<li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
-		{% endif %}
-	{% endfor %}
-	</ul>
+	<div class="container">
+		<div id="header">
+			{% include _navigation.html %}
+		</div>
+		<header id="course-header" style="background-image:url(http://{{ page.image }}_b.jpg)">
+			<h1>{{ page.title }}</h1>
+		</header>
+		<div id="col-left" class="course">
+			<span class="subtitle">{{ page.subtitle }}</span>
+			{{ content }}
+			{% include _bibliography.html %}
+		</div>
+		<div id="col-right">
+			{% include _courselessons.html %}
+		</div>
+		<div class="push"></div>
+	</div>
+	<div id="footer">
+		{% include _footer.html %}
+	</div>
 </body>

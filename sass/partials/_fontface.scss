@@ -1,0 +1,82 @@
+$color_gris_font: rgb(220,220,220);
+
+@mixin header-font {
+	color: $color_gris_font;
+	display: block;
+	font-size: 20px;
+	font-family: DroidSerif,Helvetica,Arial,sans-serif;
+}
+@mixin header-tweet {
+	color: $color_gris_font;
+	display: block;
+	font-size: 14px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+}
+@mixin header-button {
+	color: $color_gris_font;
+	display: block;
+	font-size: 11px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+}
+@mixin mainpage-title1-font {
+	display: block;
+	color: black;
+	font-size: 20px;
+	line-height: 25px;
+	font-family: DroidSerif,Helvetica,Arial,sans-serif;
+	padding-bottom: 10px;
+}
+@mixin mainpage-title2-font {
+	display: block;
+	color: black;
+	font-size: 14px;
+	line-height: 17px;
+	font-family: DroidSerif,Helvetica,Arial,sans-serif;
+	padding-bottom: 5px;
+}
+@mixin mainpage-body-font {
+	color: $color_gris_font;
+	display: block;
+	font-size: 12px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+}
+@mixin mainpage-small-font {
+	color: $color_gris_font;
+	display: block;
+	font-size: 10px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+}
+@mixin title-post-font {
+	display: block;
+	font-size: 28px;
+	line-height: 36px;
+	font-family: DroidSerif,Helvetica,Arial,sans-serif;
+}
+@mixin subtitle-post-font {
+	display: block;
+	opacity: 0.65;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+@mixin body-post-font {
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Helvetica,Arial,sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	strong{
+		font-weight: bold;
+	}
+}
+@mixin body-header-post-font {
+	display: block;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}

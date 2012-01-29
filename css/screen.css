@@ -1,0 +1,542 @@
+/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'DroidSans';
+  src: url("fonts/DroidSans-webfont.eot");
+  src: url("fonts/DroidSans-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/DroidSans-webfont.woff") format("woff"), url("fonts/DroidSans-webfont.ttf") format("truetype"), url("fonts/DroidSans-webfont.svg#DroidSansRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSerif';
+  src: url("fonts/DroidSerif-Regular-webfont.eot");
+  src: url("fonts/DroidSerif-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/DroidSerif-Regular-webfont.woff") format("woff"), url("fonts/DroidSerif-Regular-webfont.ttf") format("truetype"), url("fonts/DroidSerif-Regular-webfont.svg#DroidSerifRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSerif';
+  src: url("fonts/DroidSerif-Italic-webfont.eot");
+  src: url("fonts/DroidSerif-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/DroidSerif-Italic-webfont.woff") format("woff"), url("fonts/DroidSerif-Italic-webfont.ttf") format("truetype"), url("fonts/DroidSerif-Italic-webfont.svg#DroidSerifItalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 4, ../sass/partials/_layout.scss */
+body .container {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  *zoom: 1;
+  width: 1000px;
+  margin: 0px auto;
+  padding-bottom: 35px;
+}
+/* line 10, ../sass/partials/_layout.scss */
+body .container #header {
+  width: 100%;
+}
+/* line 13, ../sass/partials/_layout.scss */
+body .container #col-left {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+}
+/* line 19, ../sass/partials/_layout.scss */
+body .container #col-right {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline;
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+}
+/* line 26, ../sass/partials/_layout.scss */
+body #footer {
+  margin: 0px auto;
+  width: 1000px;
+}
+
+/* line 10, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#container {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -54px;
+}
+/* line 18, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#container .push {
+  height: 54px;
+}
+
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#footer {
+  clear: both;
+  position: relative;
+  height: 54px;
+}
+
+/* line 103, ../sass/screen.scss */
+#header {
+  color: #262626;
+  display: block;
+  font-size: 10px;
+  font-family: DroidSans,Helvetica,Arial,sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid silver;
+}
+/* line 109, ../sass/screen.scss */
+#header nav {
+  list-style-type: none;
+}
+/* line 5, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+#header nav, #header nav li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+/* line 29, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+#header nav li:after {
+  content: " > ";
+}
+/* line 31, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+#header nav li:last-child:after {
+  content: "";
+}
+/* line 34, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+#header nav li.last:after {
+  content: "";
+}
+/* line 111, ../sass/screen.scss */
+#header nav a {
+  text-decoration: none;
+  color: #262626;
+}
+/* line 4, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+#header nav a:hover {
+  text-decoration: underline;
+}
+/* line 18, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#header nav a:visited {
+  color: #262626;
+}
+/* line 21, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#header nav a:focus {
+  color: black;
+}
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#header nav a:hover {
+  color: black;
+}
+/* line 27, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#header nav a:active {
+  color: black;
+}
+
+/* line 117, ../sass/screen.scss */
+#footer {
+  color: #262626;
+  display: block;
+  font-size: 10px;
+  font-family: DroidSans,Helvetica,Arial,sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  border-top: 1px solid silver;
+}
+
+/* line 126, ../sass/screen.scss */
+#course-header {
+  height: 300px;
+  margin-bottom: 40px;
+  position: relative;
+}
+/* line 130, ../sass/screen.scss */
+#course-header h1 {
+  display: inline;
+  color: black;
+  font-size: 40px;
+  font-family: DroidSerif,Helvetica,Arial,sans-serif;
+  background: white;
+  padding-left: 15px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 120px;
+  position: absolute;
+}
+
+/* line 143, ../sass/screen.scss */
+.course h1, .lesson h1 {
+  display: block;
+  font-size: 28px;
+  line-height: 36px;
+  font-family: DroidSerif,Helvetica,Arial,sans-serif;
+}
+/* line 146, ../sass/screen.scss */
+.course h2, .lesson h2 {
+  display: block;
+  opacity: 0.65;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: DroidSans,Helvetica,Arial,sans-serif;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+/* line 149, ../sass/screen.scss */
+.course .subtitle, .lesson .subtitle {
+  display: block;
+  opacity: 0.65;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: DroidSans,Helvetica,Arial,sans-serif;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+/* line 154, ../sass/screen.scss */
+.course a, .lesson a {
+  color: inherit;
+  text-decoration: underline;
+}
+/* line 159, ../sass/screen.scss */
+.course a:link, .lesson a:link {
+  color: inherit;
+}
+/* line 162, ../sass/screen.scss */
+.course a:visited, .lesson a:visited {
+  color: inherit;
+}
+/* line 166, ../sass/screen.scss */
+.course h3, .course h4, .lesson h3, .lesson h4 {
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: DroidSans,Helvetica,Arial,sans-serif;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+/* line 169, ../sass/screen.scss */
+.course p:first-child, .lesson p:first-child {
+  padding-top: 0px;
+}
+/* line 172, ../sass/screen.scss */
+.course p, .lesson p {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Helvetica,Arial,sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 90, ../sass/screen.scss */
+.course p strong, .lesson p strong {
+  font-weight: bold;
+}
+/* line 175, ../sass/screen.scss */
+.course ul, .lesson ul {
+  margin-bottom: 30px;
+  list-style-type: circle;
+}
+/* line 178, ../sass/screen.scss */
+.course ul li, .lesson ul li {
+  margin-bottom: 5px;
+}
+
+/* line 186, ../sass/screen.scss */
+.bibliography-list h1 {
+  display: block;
+  opacity: 0.65;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: DroidSans,Helvetica,Arial,sans-serif;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+/* line 191, ../sass/screen.scss */
+.bibliography-list ul {
+  border-top: 1px solid gray;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Helvetica,Arial,sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style-type: circle;
+}
+/* line 90, ../sass/screen.scss */
+.bibliography-list ul strong {
+  font-weight: bold;
+}
+/* line 195, ../sass/screen.scss */
+.bibliography-list ul li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+/* line 198, ../sass/screen.scss */
+.bibliography-list ul li a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  color: #262626;
+}
+/* line 6, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+.bibliography-list ul li a:active, .bibliography-list ul li a:focus {
+  outline: none;
+}
+/* line 18, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.bibliography-list ul li a:visited {
+  color: #262626;
+}
+/* line 21, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.bibliography-list ul li a:focus {
+  color: black;
+}
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.bibliography-list ul li a:hover {
+  color: black;
+}
+/* line 27, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.bibliography-list ul li a:active {
+  color: black;
+}
+
+/* line 206, ../sass/screen.scss */
+.lesson-list, .courses-list, .related-lesson-list, .additional-resources {
+  margin-bottom: 40px;
+}
+/* line 208, ../sass/screen.scss */
+.lesson-list:last-child, .courses-list:last-child, .related-lesson-list:last-child, .additional-resources:last-child {
+  margin-bottom: 0px;
+}
+/* line 211, ../sass/screen.scss */
+.lesson-list h1, .courses-list h1, .related-lesson-list h1, .additional-resources h1 {
+  display: block;
+  opacity: 0.65;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: DroidSans,Helvetica,Arial,sans-serif;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+/* line 216, ../sass/screen.scss */
+.lesson-list ul, .courses-list ul, .related-lesson-list ul, .additional-resources ul {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+/* line 219, ../sass/screen.scss */
+.lesson-list ul li, .courses-list ul li, .related-lesson-list ul li, .additional-resources ul li {
+  height: 70px;
+  border-bottom: 1px solid silver;
+}
+/* line 220, ../sass/screen.scss */
+.lesson-list ul li a, .courses-list ul li a, .related-lesson-list ul li a, .additional-resources ul li a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  color: #262626;
+}
+/* line 6, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+.lesson-list ul li a:active, .courses-list ul li a:active, .lesson-list ul li a:focus, .courses-list ul li a:focus, .related-lesson-list ul li a:active, .related-lesson-list ul li a:focus, .additional-resources ul li a:active, .additional-resources ul li a:focus {
+  outline: none;
+}
+/* line 18, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lesson-list ul li a:visited, .courses-list ul li a:visited, .related-lesson-list ul li a:visited, .additional-resources ul li a:visited {
+  color: #262626;
+}
+/* line 21, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lesson-list ul li a:focus, .courses-list ul li a:focus, .related-lesson-list ul li a:focus, .additional-resources ul li a:focus {
+  color: black;
+}
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lesson-list ul li a:hover, .courses-list ul li a:hover, .related-lesson-list ul li a:hover, .additional-resources ul li a:hover {
+  color: black;
+}
+/* line 27, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.lesson-list ul li a:active, .courses-list ul li a:active, .related-lesson-list ul li a:active, .additional-resources ul li a:active {
+  color: black;
+}
+/* line 224, ../sass/screen.scss */
+.lesson-list ul li:hover, .courses-list ul li:hover, .related-lesson-list ul li:hover, .additional-resources ul li:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+/* line 229, ../sass/screen.scss */
+.lesson-list ul li .thumbnail, .courses-list ul li .thumbnail, .related-lesson-list ul li .thumbnail, .additional-resources ul li .thumbnail {
+  display: inline;
+  float: left;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  -webkit-border-radius: 25px 25px;
+  -moz-border-radius: 25px / 25px;
+  -o-border-radius: 25px / 25px;
+  -ms-border-radius: 25px / 25px;
+  -khtml-border-radius: 25px / 25px;
+  border-radius: 25px / 25px;
+}
+/* line 236, ../sass/screen.scss */
+.lesson-list ul li .icon, .courses-list ul li .icon, .related-lesson-list ul li .icon, .additional-resources ul li .icon {
+  display: inline;
+  float: left;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  -webkit-border-radius: 25px 25px;
+  -moz-border-radius: 25px / 25px;
+  -o-border-radius: 25px / 25px;
+  -ms-border-radius: 25px / 25px;
+  -khtml-border-radius: 25px / 25px;
+  border-radius: 25px / 25px;
+}
+/* line 243, ../sass/screen.scss */
+.lesson-list ul li hgroup, .courses-list ul li hgroup, .related-lesson-list ul li hgroup, .additional-resources ul li hgroup {
+  height: 70px;
+  padding-left: 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 248, ../sass/screen.scss */
+.lesson-list ul li hgroup h2, .courses-list ul li hgroup h2, .related-lesson-list ul li hgroup h2, .additional-resources ul li hgroup h2 {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Helvetica,Arial,sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+/* line 90, ../sass/screen.scss */
+.lesson-list ul li hgroup h2 strong, .courses-list ul li hgroup h2 strong, .related-lesson-list ul li hgroup h2 strong, .additional-resources ul li hgroup h2 strong {
+  font-weight: bold;
+}
+/* line 255, ../sass/screen.scss */
+.lesson-list ul li hgroup h3, .courses-list ul li hgroup h3, .related-lesson-list ul li hgroup h3, .additional-resources ul li hgroup h3 {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Helvetica,Arial,sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: gray;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+/* line 90, ../sass/screen.scss */
+.lesson-list ul li hgroup h3 strong, .courses-list ul li hgroup h3 strong, .related-lesson-list ul li hgroup h3 strong, .additional-resources ul li hgroup h3 strong {
+  font-weight: bold;
+}
+/* line 262, ../sass/screen.scss */
+.lesson-list ul li:last-child, .courses-list ul li:last-child, .related-lesson-list ul li:last-child, .additional-resources ul li:last-child {
+  border-bottom: none;
+}
+
+/* line 270, ../sass/screen.scss */
+.courses-list h1 {
+  display: block;
+  font-size: 28px;
+  line-height: 36px;
+  font-family: DroidSerif,Helvetica,Arial,sans-serif;
+}
+/* line 273, ../sass/screen.scss */
+.courses-list h2 {
+  display: block;
+  opacity: 0.65;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: DroidSans,Helvetica,Arial,sans-serif;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}

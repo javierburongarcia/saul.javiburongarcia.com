@@ -1,0 +1,22 @@
+{% if page.related_lessons %}
+<nav class="related-lesson-list">
+	<h1>{{ site.lesson_page-related_list_header }}</h1>
+	<ul>
+		{% for lesson in site.categories.lesson %}
+			{% for entry in page.related_lessons %}
+			{% if lesson.title == entry.title %}
+			<li>
+				<a href="{{ lesson.url }}">
+				<span class="thumbnail" style="background-image:url(http://{{ lesson.image }}_s.jpg)"></span>
+				<hgroup>
+					<h2>{{ lesson.title }}</h2>
+					<h3>{{ lesson.subtitle }}</h3>
+				</hgroup>
+				</a>
+			</li>
+			{% endif %}
+			{% endfor %}
+		{% endfor %}
+	</ul>
+</nav>
+{% endif %}

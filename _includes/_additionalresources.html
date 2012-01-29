@@ -1,0 +1,18 @@
+{% if page.resources %}
+<section class="additional-resources">
+	<h1>{{ site.lesson_page-additional_resources }}</h1>
+	<ul>
+		{% for entry in page.resources %}
+		<li>
+			<a href="{{ entry.url }}">
+			<span class="icon {{ entry.type }}"></span>
+			<hgroup>
+				<h2>{{ entry.title }}</h2>
+				<h3>{{ entry.subtitle | truncate:60 }}</h3>
+			</hgroup>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+{% endif %}

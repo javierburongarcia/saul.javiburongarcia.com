@@ -1,0 +1,21 @@
+{% if page.title == "teaching@saul" %}
+<nav>
+	<ul>
+		<li><a href="/" rel="home">{{ site.home_page-title }}</a></li>
+	</ul>
+</nav>
+{% else %}
+<nav>
+	<ul>
+		<li><a href="/" rel="home">{{ site.home_page-title }}</a></li>
+		{% if page.category == "lesson" %}
+		{% for course in site.categories.course %}
+			{% if course.title == page.tag %}
+			<li><a href="{{ course.url }}" rel="home">{{ course.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+		{% endif %}
+		<li><a href="{{ page.url }}" >{{ page.title }}</a></li>
+	</ul>
+</nav>
+{% endif %}

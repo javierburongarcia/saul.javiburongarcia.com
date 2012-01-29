@@ -5,13 +5,37 @@
 	{% include _scripts.html %}
 </head>
 <body>
-	<hgroup>
-		<h1>{{ title }}</h1>
-		<h2>{{ page.subtitle }}</h2>
-	</hgroup>
-	<ul>
-	{% for course in site.categories.course %}
-		<li><a href="{{ course.url }}">{{ course.title }}</a></li>
-	{% endfor %}
-	</ul>
+	<div class="container">
+		<div id="header">
+			{% include _navigation.html %}
+		</div>
+		<div id="col-left">
+			<h1>{{ page.title }}</h1>
+		</div>
+		<div id="col-right">
+			<nav class="courses-list">
+				<hgroup>
+					<h1>Courses</h1>
+					<h2>This a description about my work at saul</h2>
+				</hgroup>
+				<ul>
+				{% for course in site.categories.course %}
+					<li>
+						<a href="{{ course.url }}">
+							<span class="thumbnail" style="background-image:url(http://{{ course.image }}_s.jpg)"></span>
+							<hgroup>
+								<h2>{{ course.title }}</h2>
+								<h3>{{ course.subtitle }}</h3>
+							</hgroup>
+						</a>
+					</li>
+				{% endfor %}
+				</ul>
+			</nav>
+		</div>
+		<div class="push"></div>
+	</div>
+	<div id="footer">
+		{% include _footer.html %}
+	</div>
 </body>

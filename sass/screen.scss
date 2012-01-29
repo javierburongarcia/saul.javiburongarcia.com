@@ -1,0 +1,279 @@
+@import "compass/reset";
+@import "compass/utilities/general/clearfix";
+@import "compass/css3";
+@import "compass/utilities/links/";
+@import "fonts/fontfaces";
+@import "partials/layout";
+@import "compass/typography/links/hover-link";
+@import "compass/typography/links/link-colors";
+@import "compass/typography/lists/inline-list";
+@import "compass/utilities/general/clearfix";
+@import "compass/layout/sticky-footer";
+@import "compass/typography/links/unstyled-link";
+@include sticky-footer(54px, "#container", ".push", "#footer");
+
+$color_gris_font: rgb(38,38,38);
+
+@mixin course-header-font {
+	color: black;
+	font-size: 40px;
+	font-family: DroidSerif,Helvetica,Arial,sans-serif;
+}
+@mixin header-font {
+	color: $color_gris_font;
+	display: block;
+	font-size: 20px;
+	font-family: DroidSerif,Helvetica,Arial,sans-serif;
+}
+@mixin header-tweet {
+	color: $color_gris_font;
+	display: block;
+	font-size: 14px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+}
+@mixin header-button {
+	color: $color_gris_font;
+	display: block;
+	font-size: 11px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+}
+@mixin mainpage-title1-font {
+	display: block;
+	color: black;
+	font-size: 20px;
+	line-height: 25px;
+	font-family: DroidSerif,Helvetica,Arial,sans-serif;
+	padding-bottom: 10px;
+}
+@mixin mainpage-title2-font {
+	display: block;
+	color: black;
+	font-size: 14px;
+	line-height: 17px;
+	font-family: DroidSerif,Helvetica,Arial,sans-serif;
+	padding-bottom: 5px;
+}
+@mixin mainpage-body-font {
+	color: $color_gris_font;
+	display: block;
+	font-size: 12px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+}
+@mixin mainpage-small-font {
+	color: $color_gris_font;
+	display: block;
+	font-size: 10px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+}
+@mixin title-post-font {
+	display: block;
+	font-size: 28px;
+	line-height: 36px;
+	font-family: DroidSerif,Helvetica,Arial,sans-serif;
+}
+@mixin subtitle-post-font {
+	display: block;
+	opacity: 0.65;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+@mixin body-post-font {
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Helvetica,Arial,sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	strong{
+		font-weight: bold;
+	}
+}
+@mixin body-header-post-font {
+	display: block;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: DroidSans,Helvetica,Arial,sans-serif;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#header{
+	@include mainpage-small-font;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid silver;
+	nav{
+		@include delimited-list(" > ");
+		a{
+			@include hover-link;
+			@include link-colors($color_gris_font, black, black, $color_gris_font, black);
+		}
+	}
+}
+#footer{
+	@include mainpage-small-font;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	border-top: 1px solid silver;
+}
+
+#course-header{
+	height:300px;
+	margin-bottom:40px;
+	position:relative;
+	h1{
+		display:inline;
+		@include course-header-font;
+		background:white;
+		padding-left:15px;
+		padding-right:25px;
+		padding-top:10px;
+		padding-bottom:10px;
+		top:120px;
+		position:absolute;
+	}
+}
+.course, .lesson{
+	h1{
+		@include title-post-font;
+	}
+	h2{
+		@include subtitle-post-font;
+	}
+	.subtitle{
+		@include subtitle-post-font;
+		padding-top: 0px;
+		padding-bottom: 20px;
+	}
+	a{
+		color: inherit;
+		text-decoration:underline;
+		&:hover{
+		}
+		&:link{
+			color: inherit;
+		}
+		&:visited{
+			color: inherit;
+		}
+	}
+	h3, h4{
+		@include body-header-post-font;
+	}
+	p:first-child{
+		padding-top: 0px;
+	}
+	p{
+		@include body-post-font;
+	}
+	ul{
+		margin-bottom:30px;
+		list-style-type:circle;
+		li{
+			margin-bottom:5px;
+			a{
+			}
+		}
+	}
+}
+.bibliography-list{
+	h1{
+		@include subtitle-post-font;
+		padding-top: 30px;
+		padding-bottom: 5px;	
+	}
+	ul{
+		border-top: 1px solid gray;
+		@include body-post-font;
+		list-style-type:circle;
+		li{
+			padding-top: 3px;
+			padding-bottom: 3px;
+			a{
+				@include unstyled-link;
+				@include link-colors($color_gris_font, black, black, $color_gris_font, black);
+			}
+		}
+	}
+}
+
+.lesson-list, .related-lesson-list, .additional-resources{
+	margin-bottom: 40px;
+	&:last-child{
+		margin-bottom: 0px;
+	};
+	h1{
+		@include subtitle-post-font;
+		padding-top: 0px;
+		padding-bottom: 5px;	
+	}
+	ul{
+		border-top: 1px solid gray;
+		border-bottom: 1px solid gray;
+		li{
+			a{
+				@include unstyled-link;
+				@include link-colors($color_gris_font, black, black, $color_gris_font, black);
+			}
+			&:hover{
+				background-color:rgba(0,0,0,0.02);
+			}
+			height: 70px;
+			border-bottom: 1px solid silver;
+			.thumbnail{
+				@include float-left;
+				margin:10px;
+				height:50px;
+				width:50px;
+				@include border-radius(25px, 25px);
+			}
+			.icon{
+				@include float-left;
+				margin:10px;
+				height:50px;
+				width:50px;
+				@include border-radius(25px, 25px);
+			}
+			hgroup{
+				height: 70px;
+				padding-left: 10px;
+				display: table-cell;
+				vertical-align: middle;
+				h2{
+					@include body-post-font;
+					font-weight: bold;
+					color:black;
+					padding-top: 0px;
+					padding-bottom: 0px;
+				}
+				h3{
+					@include body-post-font;
+					color:gray;
+					padding-top: 0px;
+					padding-bottom: 0px;
+				}
+			}
+			&:last-child{
+				border-bottom: none;
+			}
+		}
+	}
+}
+
+.courses-list {
+	h1{
+		@include title-post-font;	
+	}
+	h2{
+		@include subtitle-post-font;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	@extend .lesson-list;
+}

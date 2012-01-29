@@ -1,0 +1,10 @@
+{% if page.bibliography %}
+<section class="bibliography-list">
+	<h1>{{ site.course_page-bibliography_list_header }}</h1>
+	<ul>
+		{% for entry in page.bibliography %}
+		<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+		{% endfor %}
+	</ul>
+</section>
+{% endif %}
