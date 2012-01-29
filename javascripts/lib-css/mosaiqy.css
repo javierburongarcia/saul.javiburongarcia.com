@@ -1,0 +1,259 @@
+/**
+ * Basic style. Please don't change this section unless you're
+ * absolutely confident and you know what you're doing
+ */
+
+.js .mosaiqy.loading {
+    width           : 20px;
+    height          : 20px;
+    background      : #f0f1f4  url(../lib-img/ajax-loader.gif) center center no-repeat;
+}
+
+	.no-js .mosaiqy.loading  {
+		border			: 0;
+	}
+
+
+.mosaiqy * {
+    margin      : 0;
+    padding     : 0;
+}
+
+
+.mosaiqy ul {
+    list-style      : none;
+    padding         : 0;
+    margin          : 0;    
+    position        : relative;
+    z-index         : 1;
+    overflow        : hidden;
+}
+
+.no-js .mosaiqy ul  {
+	height		: auto;
+	overflow	: hidden;
+}
+
+
+
+
+.no-js .mosaiqy li  {
+	float		: left;
+	position	: relative;
+	z-index		: 1;
+}
+
+.js .mosaiqy li {
+	position        : absolute;
+	z-index         : 1;
+	display         : block;
+	text-align      : left;
+	float           : none;
+}
+
+.js .mosaiqy li > div {
+	position        : relative;
+	z-index         : 1;
+	width           : 100%;
+	height          : 100%;
+}
+
+.js .mosaiqy.zoom li {
+	float           : left !important;
+	position        : static !important;
+}
+
+
+.js .mosaiqy li:hover {
+    z-index             : 20;    
+}
+
+    
+ 
+.mosaiqy figure {  
+    display         : block;
+}
+
+.mosaiqy img {
+    display         : block;
+    border          : 0;
+}
+
+.js .loading.mosaiqy img {
+    opacity         : 0;
+    -moz-opacity    : 0;
+    filter          : alpha(opacity=0);
+}
+
+
+.mosaiqy figcaption {
+    display             : none;    
+    position            : absolute;
+    z-index             : 2;
+    top                 : 0;
+    left                : 0;
+}
+
+
+.mosaiqy li.zoom figcaption,
+.mosaiqy li:hover figcaption {
+    display         : block;
+    text-indent     : 0;
+    color           : #4a4a4a;
+}
+
+.mosaiqy li.zoom figure,
+.mosaiqy li:hover figure {
+    display         : block;
+}
+
+.mosaiqy li.zoom figcaption {
+    text-indent     : -8478em;
+}
+
+
+
+.mosaiqy li {
+      -moz-transition-property              : all;
+      -moz-transition-timing-function       : ease-out;
+      -moz-transition-delay                 : 0s;
+      
+      -o-transition-property                : all;
+      -o-transition-timing-function         : ease-out;
+      -o-transition-delay                   : 0s;
+      
+      -webkit-transition-property           : all;
+      -webkit-transition-timing-function    : ease-out;
+      -webkit-transition-delay              : 0s;
+      
+      transition-property                   : all;
+      transition-timing-function            : ease-out;
+      transition-delay                      : 0s;
+}
+
+    .mosaiqy li.mosaiqy-zoom {
+        clear           : left;
+        width           : 100%;
+        height          : 0;
+        z-index         : 100;
+        background      : #f0f1f4  url(../lib-img/ajax-loader.gif) center center no-repeat;
+    }
+
+        .mosaiqy li.mosaiqy-zoom figure {
+            position        : relative;
+            display         : block;
+            width           : 100%;
+            height          : 100%;
+        }
+        
+
+    .mosaiqy .mosaiqy-zoom-image {
+        display         : none;
+        width           : 100% !important;
+        height          : auto !important;
+    }
+    
+    .mosaiqy .mosaiqy-zoom-close { 
+        display         : block;
+        width           : 45px;
+        height          : 45px;
+        background      : url(../lib-img/close.png) top left no-repeat;
+        position        : absolute;
+        z-index         : 10;
+        top             : 10px;
+        right           : 10px;
+        overflow        : hidden;
+        text-indent     : -8478em;
+        opacity         : 0;
+        -moz-opacity    : 0;
+        filter          : alpha(opacity=0)
+    }
+
+
+
+/**
+ * User styles
+ * In this section you can modify style according to your template
+ * These rules are suitable for the markup written into the demo templates
+ * If you change markup or if you  modify the style change the rules below.
+ */
+
+.no-js .mosaiqy ul {
+	margin		: 0 auto;
+	width		: 600px;
+}
+
+.js .mosaiqy  {
+    border          : 1px #d8d8d8 solid;
+    padding         : 4px;
+    margin          : 30px auto;
+    -webkit-box-shadow  : 0 0 15px rgba(0, 0, 0, .4); 
+	-moz-box-shadow     : 0 0 15px rgba(0, 0, 0, .4); 
+	box-shadow          : 0 0 15px rgba(0, 0, 0, .4);
+}
+
+.mosaiqy li,
+.mosaiqy img {
+    width           : 200px;
+    height          : 135px;
+}
+
+
+.mosaiqy li figcaption {
+    background          : rgba(255, 255, 255, 0.7);
+    color               : #303134;
+    font-style          : italic;
+    font                : 13px Arial, Verdana, sans-serif;
+    cursor              : pointer;
+    height              : 100%;
+    width               : 100%;
+    border              : 2px solid transparent;
+    padding             : 8px;
+    height              : 115px;
+    width               : 180px;
+    opacity             : 0;
+    -webkit-transition  : opacity .5s ease;
+    -moz-transition     : opacity .5s ease;
+    -ms-transition      : opacity .5s ease;
+    -o-transition       : opacity .5s ease;
+	transition          : opacity .5s ease;
+}
+
+.ie7 .mosaiqy li figcaption,
+.ie8 .mosaiqy li figcaption {
+	background          : url(../lib-img/figcaption-IE-bg.png);
+}
+
+.mosaiqy li.zoom figcaption {
+    border          : 2px solid #adbecb;
+    cursor          : default;
+}
+
+    .mosaiqy li.mosaiqy-zoom figcaption {
+        position        : absolute;
+        z-index         : 2;
+        top             : auto;
+        bottom          : 0;
+        padding         : 1em 0;
+        height          : auto;
+        text-indent     : 12px;
+        display         : block;
+        width           : 100%;
+        vertical-align  : middle;
+        cursor          : default;
+    }
+
+
+
+
+.mosaiqy li figure a {
+    display         : block;
+    height          : 100%;
+    width           : 100%;
+    text-decoration : none;
+}
+
+.mosaiqy li.zoom figcaption,
+.mosaiqy li figcaption:hover  {
+    opacity             : 1;
+}

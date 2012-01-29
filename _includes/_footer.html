@@ -1,3 +1,48 @@
 <footer>
 	<p>Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. See Terms of use for details.</p>
 </footer>
+<script id="mosaiqydemo">
+$(document).ready(function() {
+    
+    $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=62700709@N03&jsoncallback=?", {
+        format : "json"
+    },
+    function(flickrJSON) {
+        
+        var fjson  = flickrJSON.items,
+            flen   = fjson.length,
+            fi;
+            
+        /**
+         * This JSON doesn't include information about zoom image for each photo.
+         * Since zoom file name usually ends with '_z.jpg' we inject into data a new
+         * key/value pair for each thumb, so the object will be something like
+         *
+         * "media"         : {
+         *      "m" : "http://farm6.static.flickr.com/5105/5757891471_1abfbd822c_m.jpg"
+         *      "z" : "http://farm6.static.flickr.com/5105/5757891471_1abfbd822c_z.jpg"
+         * }
+         */
+        while (flen--) {
+            fi = fjson[flen];
+            fi.media['z']  = fi.media['m'].replace(/^(.+)(\_m\.)(\w+)$/i, function(url, name, type, ext) {
+                return [name, ext].join('_z.');
+            });
+        }
+            
+            
+        $('.mosaiqy').mosaiqy({
+            template        : 'mosaiqy_tpl',
+            rows            : 5,
+            cols            : 4,
+            avoidDuplicates : true,
+            animationDelay  : 1500,
+            loop            : true,
+            indexData       : 9,
+            openZoom        : false,
+            data            : fjson
+        });            
+        
+    });
+});
+</script>
