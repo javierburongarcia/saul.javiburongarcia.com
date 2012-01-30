@@ -2,6 +2,7 @@ auto: true
 permalink: /:year/:month/:categories/:title/
 
 home_page-title: SAUL
+home_page-course_list: Courses
 course_page-lesson_list_header: Lessons
 course_page-bibliography_list_header: Biblography
 lesson_page-related_list_header: Related lessons

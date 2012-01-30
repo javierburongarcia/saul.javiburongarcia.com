@@ -1,6 +1,6 @@
 ---
 layout: course
-title: digital fabrication
+title: Digital Fabrication
 category: course
 permalink: /digital-fabrication/
 subtitle: este es el subtitulo del course digital fabrication

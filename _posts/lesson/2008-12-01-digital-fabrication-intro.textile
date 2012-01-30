@@ -2,7 +2,7 @@
 layout: lesson
 title: Introduction
 category: lesson
-tag: digital fabrication
+tag: Digital Fabrication
 permalink: /digital-fabrication/intro/
 subtitle: este es el subtitulo de la lesson introducción a digital fabrication
 image: farm8.staticflickr.com/7156/6672244315_a08906f26b
@@ -16,17 +16,17 @@ resources:
  - title: Este es el título primero
    subtitle: Este es el subtítulo primero
    url: http://www.example.com
-   type: pdf-document
+   type: delicious
  - title: Este es el título segundo
    subtitle: Este es el subtítulo primero
    url: http://www.example2.com
-   type: youtube-playlist
- - title: Este es el título tercero
-   subtitle: Este es el subtítulo primero
-   url: http://www.example2.com
-   type: delicious-stack
+   type: youtube
 related_lessons:
  - title: Sampling
+slideshow:
+ - caption: Digital fabrication lesson caption title
+   embed: 120130174244-d45f7fd592fc4b55979424c6f151c7d8
+
 ---
 
 Las organizaciones que visitamos eran muy diferentes entre sí, tanto en origen como por tamaño. Algunas nacieron de la iniciativa pública o con un una amplia participación de lo público, como el consorcio "MaRS":http://www.marsdd.com/, dedicado a la investigación médica y el emprendimiento tecnológico. Otras nacieron exclusivamente de la iniciativa privada, con gran esfuerzo y dedicación por parte de sus promotores, como el caso de "Camaraderie":http://www.espaciocreativo.colaborativa.eu/blog/referencias/camaraderie-toronto/. Cada una de ellas se dirige a perfiles distintos de emprendedores. Conocer esta diversidad de iniciativas y su complementareidad ha sido de las experiencias más reveladoras del viaje.

@@ -10,7 +10,7 @@
 				<span class="thumbnail" style="background-image:url(http://{{ lesson.image }}_s.jpg)"></span>
 				<hgroup>
 					<h2>{{ lesson.title }}</h2>
-					<h3>{{ lesson.subtitle }}</h3>
+					<h3>{{ lesson.subtitle | truncate:60}}</h3>
 				</hgroup>
 				</a>
 			</li>

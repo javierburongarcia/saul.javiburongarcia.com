@@ -2,7 +2,7 @@
 layout: lesson
 title: Sampling
 category: lesson
-tag: drawing and representation
+tag: Drawing and Representation
 permalink: /drawing-and-representation/sampling/
 subtitle: este es el subtitulo de la lesson sampling de drawing and representation
 image: farm8.staticflickr.com/7156/6672244315_a08906f26b
@@ -16,15 +16,11 @@ resources:
  - title: Este es el título primero
    subtitle: Este es el subtítulo primero
    url: http://www.example.com
-   type: pdf-document
+   type: delicious
  - title: Este es el título segundo
    subtitle: Este es el subtítulo primero
    url: http://www.example2.com
-   type: youtube-playlist
- - title: Este es el título tercero
-   subtitle: Este es el subtítulo primero
-   url: http://www.example2.com
-   type: delicious-stack
+   type: youtube
 related_lessons:
  - title: Introduction
 ---

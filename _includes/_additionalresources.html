@@ -5,7 +5,7 @@
 		{% for entry in page.resources %}
 		<li>
 			<a href="{{ entry.url }}">
-			<span class="icon {{ entry.type }}"></span>
+			<span class="icon resources-{{ entry.type }}"></span>
 			<hgroup>
 				<h2>{{ entry.title }}</h2>
 				<h3>{{ entry.subtitle | truncate:60 }}</h3>
