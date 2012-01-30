@@ -13,40 +13,35 @@
 <script src='/javascripts/jquery.js' type='text/javascript'></script>
 <script src='/javascripts/site.js' type='text/javascript'></script>
 <script src='/javascripts/mosaiqy-1.0.1.min.js' id="mosaiqy_tpl" type='text/javascript'>
-	<img class="mosaic" src="${media.m}">
+	<a href="${title}"><img class="mosaic" src="${media.m}"></a>
 </script>
 <link rel="stylesheet" media="screen" href="/javascripts/lib-css/mosaiqy.css" />
 <script id="mosaiqydemo">
 $(document).ready(function() {
-    $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=49838422@N03&jsoncallback=?", {
-        format : "json"
-    },
-    function(flickrJSON) {
-        
-        var fjson  = flickrJSON.items,
-            flen   = fjson.length,
-            fi;
-        while (flen--) {
-            fi = fjson[flen];
-            fi.media['z']  = fi.media['m'].replace(/^(.+)(\_m\.)(\w+)$/i, function(url, name, type, ext) {
-                return [name, ext].join('_z.');
-            });
-        }
-            
-            
-        $('.mosaiqy').mosaiqy({
-            template        : 'mosaiqy_tpl',
-            rows            : 5,
-            cols            : 4,
-            avoidDuplicates : false,
-            animationDelay  : 2000,
-            loop            : true,
-            indexData       : 9,
-            openZoom        : false,
-            data            : fjson
-        });            
-        
-    });
-
+	$.getJSON("api.flickr.com/services/feeds/photoset.gne?set=72157629102981577&nsid=49838422@N03&jsoncallback=?", {
+		format : "json"
+	},
+	function(flickrJSON) {
+		var fjson  = flickrJSON.items,
+		flen   = fjson.length,
+		fi;
+	 while (flen--) {
+		fi = fjson[flen];
+		fi.media['z']  = fi.media['m'].replace(/^(.+)(\_m\.)(\w+)$/i, function(url, name, type, ext) {
+			return [name, ext].join('_z.');
+		});
+	 }
+	 $('.mosaiqy').mosaiqy({
+		template        : 'mosaiqy_tpl',
+		rows            : 5,
+		cols            : 4,
+		avoidDuplicates : true,
+		animationDelay  : 2000,
+		loop            : true,
+		indexData       : 9,
+		openZoom        : false,
+		data            : fjson
+	 });
+	});
 });
 </script>
