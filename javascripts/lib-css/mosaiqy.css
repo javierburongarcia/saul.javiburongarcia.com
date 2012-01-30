@@ -192,11 +192,6 @@
 	box-shadow          : 0 0 15px rgba(0, 0, 0, .4);
 }
 
-.mosaiqy li,
-.mosaiqy img {
-    width           : 200px;
-    height          : 135px;
-}
 
 
 .mosaiqy li figcaption {

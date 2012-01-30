@@ -100,6 +100,20 @@ $color_gris_font: rgb(38,38,38);
 	padding-bottom: 5px;
 }
 
+.mosaiqy li {
+	@include box-sizing(border-box);
+	overflow: hidden;
+	position: absolute;
+	width: 120px;
+	height: 70px;
+	background-color: black;
+	border-top:1px solid white;
+	border-left:1px solid white;
+}
+.mosaiqy img {
+	width: 120px;
+}
+	
 #header{
 	@include mainpage-small-font;
 	margin-top: 30px;
@@ -137,6 +151,20 @@ $color_gris_font: rgb(38,38,38);
 		padding-bottom:10px;
 		top:120px;
 		position:absolute;
+	}
+}
+#col-left.home{
+	position:relative;
+	 h1{
+		@include box-sizing(border-box);
+		width:360px;
+		height:70px;
+		position:absolute;
+		padding-top:20px;
+		background:rgba(255,255,255,0.9);
+		top:70px;
+		@include course-header-font;
+		z-index:1000;
 	}
 }
 .course, .lesson{
