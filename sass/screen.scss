@@ -157,8 +157,10 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 		position:absolute;
 		right:5px;
 		bottom:5px;
+		padding:3px;
 		@include mainpage-small-font;
 		color:white;
+		background-color:rgba(0,0,0,0.50);
 	}
 	h1{
 		display:inline;

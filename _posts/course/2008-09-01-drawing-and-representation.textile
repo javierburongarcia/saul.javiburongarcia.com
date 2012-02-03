@@ -4,7 +4,8 @@ title: Drawing and Representation
 category: course
 permalink: /drawing-representation/
 subtitle: This course pivots around the idea of a hybrid media design environment in which digital and analog tools are used simultaneously and complementarity
-image: farm8.staticflickr.com/7146/6679822097_2db0b9e741
+image: farm8.staticflickr.com/7020/6811226437_e361ce45cc
+image_caption: Dürer, Albrecht. Institutionum geometricarum. 1532
 
 ---
 
