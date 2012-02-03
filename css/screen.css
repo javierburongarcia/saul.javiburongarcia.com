@@ -131,9 +131,9 @@ body #footer {
   width: 1000px;
 }
 
-/* line 33, resources */
-.resources-sprite, .resources-delicious, .resources-youtube {
-  background: url('/images/resources-s55bcff26a2.png') no-repeat;
+/* line 39, resources */
+.resources-sprite, .resources-delicious, .resources-image, .resources-youtube {
+  background: url('/images/resources-se5724053cb.png') no-repeat;
 }
 
 /* line 60, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -142,8 +142,13 @@ body #footer {
 }
 
 /* line 60, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.resources-youtube {
+.resources-image {
   background-position: 0 -48px;
+}
+
+/* line 60, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.resources-youtube {
+  background-position: 0 -96px;
 }
 
 /* line 10, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
