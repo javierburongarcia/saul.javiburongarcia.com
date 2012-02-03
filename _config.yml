@@ -1,9 +1,10 @@
 auto: true
 permalink: /:year/:month/:categories/:title/
+url: http://saul.javierburon.net
 
 home_page-title: SAUL
 home_page-course_list: Courses
 course_page-lesson_list_header: Lessons
-course_page-bibliography_list_header: Biblography
+course_page-bibliography_list_header: Bibliography
 lesson_page-related_list_header: Related lessons
 lesson_page-additional_resources: Additional resources

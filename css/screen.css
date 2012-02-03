@@ -201,56 +201,58 @@ html, body {
   margin-bottom: 30px;
   padding-bottom: 10px;
   border-bottom: 1px solid silver;
+  position: relative;
 }
-/* line 128, ../sass/screen.scss */
-#header nav {
+/* line 130, ../sass/screen.scss */
+#header nav ul {
+  width: 600px;
   list-style-type: none;
 }
 /* line 5, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
-#header nav, #header nav li {
+#header nav ul, #header nav ul li {
   margin: 0px;
   padding: 0px;
   display: inline;
 }
 /* line 29, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
-#header nav li:after {
+#header nav ul li:after {
   content: " > ";
 }
 /* line 31, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
-#header nav li:last-child:after {
+#header nav ul li:last-child:after {
   content: "";
 }
 /* line 34, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
-#header nav li.last:after {
+#header nav ul li.last:after {
   content: "";
 }
-/* line 130, ../sass/screen.scss */
-#header nav a {
+/* line 133, ../sass/screen.scss */
+#header nav ul a {
   text-decoration: none;
   color: #262626;
 }
 /* line 4, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
-#header nav a:hover {
+#header nav ul a:hover {
   text-decoration: underline;
 }
 /* line 18, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-#header nav a:visited {
+#header nav ul a:visited {
   color: #262626;
 }
 /* line 21, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-#header nav a:focus {
+#header nav ul a:focus {
   color: black;
 }
 /* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-#header nav a:hover {
+#header nav ul a:hover {
   color: black;
 }
 /* line 27, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-#header nav a:active {
+#header nav ul a:active {
   color: black;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 #footer {
   color: #262626;
   display: block;
@@ -263,13 +265,24 @@ html, body {
   border-top: 1px solid silver;
 }
 
-/* line 145, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 #course-header {
   height: 300px;
   margin-bottom: 40px;
   position: relative;
 }
-/* line 149, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
+#course-header .caption {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: #262626;
+  display: block;
+  font-size: 10px;
+  font-family: DroidSans,Helvetica,Arial,sans-serif;
+  color: white;
+}
+/* line 163, ../sass/screen.scss */
 #course-header h1 {
   display: inline;
   color: black;
@@ -284,11 +297,11 @@ html, body {
   position: absolute;
 }
 
-/* line 161, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 #col-left.home {
   position: relative;
 }
-/* line 163, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 #col-left.home h1 {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -307,14 +320,14 @@ html, body {
   z-index: 1000;
 }
 
-/* line 177, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .course h1, .lesson h1 {
   display: block;
   font-size: 28px;
   line-height: 36px;
   font-family: DroidSerif,Helvetica,Arial,sans-serif;
 }
-/* line 180, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .course h2, .lesson h2 {
   display: block;
   opacity: 0.65;
@@ -326,7 +339,7 @@ html, body {
   padding-top: 15px;
   padding-bottom: 25px;
 }
-/* line 185, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .course .subtitle, .lesson .subtitle {
   display: block;
   opacity: 0.65;
@@ -338,7 +351,7 @@ html, body {
   padding-top: 0px;
   padding-bottom: 20px;
 }
-/* line 190, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .course a, .lesson a {
   color: inherit;
   text-decoration: underline;
@@ -360,7 +373,7 @@ html, body {
 .course a:active, .lesson a:active {
   color: black;
 }
-/* line 195, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .course h3, .course h4, .lesson h3, .lesson h4 {
   display: block;
   font-size: 18px;
@@ -369,11 +382,11 @@ html, body {
   padding-top: 10px;
   padding-bottom: 5px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 .course p:first-child, .lesson p:first-child {
   padding-top: 0px;
 }
-/* line 201, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .course p, .lesson p {
   display: block;
   font-size: 14px;
@@ -386,17 +399,17 @@ html, body {
 .course p strong, .lesson p strong {
   font-weight: bold;
 }
-/* line 204, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .course ul, .lesson ul {
   margin-bottom: 30px;
   list-style-type: circle;
 }
-/* line 207, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .course ul li, .lesson ul li {
   margin-bottom: 5px;
 }
 
-/* line 212, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .keynote {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -413,7 +426,7 @@ html, body {
   -khtml-border-radius: 5px / 5px;
   border-radius: 5px / 5px;
 }
-/* line 219, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 .keynote figcaption {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -432,7 +445,7 @@ html, body {
   font-weight: bold;
 }
 
-/* line 229, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 .bibliography-list h1 {
   display: block;
   opacity: 0.65;
@@ -445,7 +458,7 @@ html, body {
   padding-bottom: 5px;
   color: black;
 }
-/* line 235, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .bibliography-list ul {
   border-top: 1px solid gray;
   display: block;
@@ -460,13 +473,13 @@ html, body {
 .bibliography-list ul strong {
   font-weight: bold;
 }
-/* line 239, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 .bibliography-list ul li {
   padding-top: 1px;
   padding-bottom: 1px;
   font-size: 13px;
 }
-/* line 243, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .bibliography-list ul li a {
   color: inherit;
   text-decoration: inherit;
@@ -494,15 +507,15 @@ html, body {
   color: black;
 }
 
-/* line 251, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 .lesson-list, .courses-list, .related-lesson-list, .additional-resources {
   margin-bottom: 40px;
 }
-/* line 253, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .lesson-list:last-child, .courses-list:last-child, .related-lesson-list:last-child, .additional-resources:last-child {
   margin-bottom: 0px;
 }
-/* line 256, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 .lesson-list h1, .courses-list h1, .related-lesson-list h1, .additional-resources h1 {
   display: block;
   opacity: 0.65;
@@ -516,17 +529,17 @@ html, body {
   color: black;
   opacity: 1;
 }
-/* line 263, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 .lesson-list ul, .courses-list ul, .related-lesson-list ul, .additional-resources ul {
   border-top: 1px solid silver;
   border-bottom: 1px solid silver;
 }
-/* line 266, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 .lesson-list ul li, .courses-list ul li, .related-lesson-list ul li, .additional-resources ul li {
   height: 70px;
   border-bottom: 1px solid #e6e6e6;
 }
-/* line 267, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .lesson-list ul li a, .courses-list ul li a, .related-lesson-list ul li a, .additional-resources ul li a {
   color: inherit;
   text-decoration: inherit;
@@ -553,7 +566,7 @@ html, body {
 .lesson-list ul li a:active, .courses-list ul li a:active, .related-lesson-list ul li a:active, .additional-resources ul li a:active {
   color: black;
 }
-/* line 271, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 .lesson-list ul li:link, .courses-list ul li:link, .lesson-list ul li:visited, .courses-list ul li:visited, .lesson-list ul li:active, .courses-list ul li:active, .lesson-list ul li:focus, .courses-list ul li:focus, .related-lesson-list ul li:link, .related-lesson-list ul li:visited, .related-lesson-list ul li:active, .related-lesson-list ul li:focus, .additional-resources ul li:link, .additional-resources ul li:visited, .additional-resources ul li:active, .additional-resources ul li:focus {
   -moz-transition: all 0.25s linear;
   -webkit-transition: all 0.25s linear;
@@ -561,7 +574,7 @@ html, body {
   transition: all 0.25s linear;
   background-color: white;
 }
-/* line 275, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 .lesson-list ul li:hover, .courses-list ul li:hover, .related-lesson-list ul li:hover, .additional-resources ul li:hover {
   background-color: rgba(0, 0, 0, 0.04);
   -moz-transition: all 0.25s linear;
@@ -569,7 +582,7 @@ html, body {
   -o-transition: all 0.25s linear;
   transition: all 0.25s linear;
 }
-/* line 281, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .lesson-list ul li .thumbnail, .courses-list ul li .thumbnail, .related-lesson-list ul li .thumbnail, .additional-resources ul li .thumbnail {
   display: inline;
   float: left;
@@ -582,8 +595,13 @@ html, body {
   -ms-border-radius: 25px / 25px;
   -khtml-border-radius: 25px / 25px;
   border-radius: 25px / 25px;
+  border: 1px solid #e6e6e6;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
-/* line 288, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 .lesson-list ul li .icon, .courses-list ul li .icon, .related-lesson-list ul li .icon, .additional-resources ul li .icon {
   display: inline;
   float: left;
@@ -592,14 +610,14 @@ html, body {
   width: 50px;
   display: block;
 }
-/* line 295, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 .lesson-list ul li hgroup, .courses-list ul li hgroup, .related-lesson-list ul li hgroup, .additional-resources ul li hgroup {
   height: 70px;
   padding-left: 10px;
   display: table-cell;
   vertical-align: middle;
 }
-/* line 300, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 .lesson-list ul li hgroup h2, .courses-list ul li hgroup h2, .related-lesson-list ul li hgroup h2, .additional-resources ul li hgroup h2 {
   display: block;
   font-size: 14px;
@@ -617,7 +635,7 @@ html, body {
 .lesson-list ul li hgroup h2 strong, .courses-list ul li hgroup h2 strong, .related-lesson-list ul li hgroup h2 strong, .additional-resources ul li hgroup h2 strong {
   font-weight: bold;
 }
-/* line 308, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 .lesson-list ul li hgroup h3, .courses-list ul li hgroup h3, .related-lesson-list ul li hgroup h3, .additional-resources ul li hgroup h3 {
   display: block;
   font-size: 14px;
@@ -635,16 +653,16 @@ html, body {
 .lesson-list ul li hgroup h3 strong, .courses-list ul li hgroup h3 strong, .related-lesson-list ul li hgroup h3 strong, .additional-resources ul li hgroup h3 strong {
   font-weight: bold;
 }
-/* line 317, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 .lesson-list ul li:last-child, .courses-list ul li:last-child, .related-lesson-list ul li:last-child, .additional-resources ul li:last-child {
   border-bottom: none;
 }
 
-/* line 324, ../sass/screen.scss */
+/* line 340, ../sass/screen.scss */
 .courses-list {
   opacity: 1;
 }
-/* line 326, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 .courses-list h1 {
   display: block;
   font-size: 28px;
@@ -654,7 +672,7 @@ html, body {
   opacity: 1;
   padding-bottom: 0px;
 }
-/* line 332, ../sass/screen.scss */
+/* line 348, ../sass/screen.scss */
 .courses-list h2 {
   display: block;
   opacity: 0.65;

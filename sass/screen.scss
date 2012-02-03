@@ -118,19 +118,26 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 .mosaiqy img {
 	width: 120px;
 }
-	
+
 #header{
 	@include mainpage-small-font;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid silver;
+	position:relative;
 	nav{
-		@include delimited-list(" > ");
-		a{
-			@include hover-link;
-			@include link-colors($color_gris_font, black, black, $color_gris_font, black);
+		ul{
+			width:600px;
+			@include delimited-list(" > ");
+			a{
+				@include hover-link;
+				@include link-colors($color_gris_font, black, black, $color_gris_font, black);
+			}
 		}
+		.botones-sociales{
+		}
+
 	}
 }
 #footer{
@@ -146,6 +153,13 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 	height:300px;
 	margin-bottom:40px;
 	position:relative;
+	.caption{
+		position:absolute;
+		right:5px;
+		bottom:5px;
+		@include mainpage-small-font;
+		color:white;
+	}
 	h1{
 		display:inline;
 		@include course-header-font;
@@ -284,6 +298,8 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 				height:50px;
 				width:50px;
 				@include border-radius(25px, 25px);
+				border: 1px solid $color_gris_muyclaro;
+				@include box-sizing(border-box);
 			}
 			.icon{
 				@include float-left;

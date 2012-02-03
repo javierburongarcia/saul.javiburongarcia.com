@@ -3,4 +3,4 @@ layout: default
 title: teaching@saul
 ---
 
-These are the courses and workshops I have been teaching at SAUL since 2007. All have been related in any way or anoter to information technology, graphic comunication, visual culture and fabrication.
+These are some of the courses and workshops I have been teaching at SAUL since 2007. I will keep organising and uploading material periodically until everything is available online. 

@@ -1,7 +1,7 @@
 <nav class="lesson-list">
 	<h1>{{ site.course_page-lesson_list_header }}</h1>
 	<ul>
-	{% for lesson in site.categories.lesson %}
+	{% for lesson in site.categories.lesson reversed %}
 		{% if page.title == lesson.tag %}
 		<li>
 			<a href="{{ lesson.url }}">

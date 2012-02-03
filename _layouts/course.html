@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xmlns:fb="https://www.facebook.com/2008/fbml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xmlns:fb="https://www.facebook.com/2008/fbml" itemscope itemtype="http://schema.org/Article">
 <head>
 	<title>{{ page.title }}</title>
 	{% include _scripts.html %}
@@ -9,7 +9,8 @@
 		<div id="header">
 			{% include _navigation.html %}
 		</div>
-		<header id="course-header" style="background-image:url(http://{{ page.image }}_b.jpg)">
+		<header id="course-header" style="background:url(http://{{ page.image }}_b.jpg) no-repeat left center">
+			<span class="caption">{{ page.image_caption }}</span>
 			<h1>{{ page.title }}</h1>
 		</header>
 		<div id="col-left" class="course">

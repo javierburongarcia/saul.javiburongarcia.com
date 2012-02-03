@@ -1,0 +1,22 @@
+---
+layout: lesson
+title: Collage & Photomontage
+category: lesson
+tag: Drawing and Representation
+permalink: /drawing-representation/collage-photomontage/
+subtitle: "A brief history of sampling: from the daguerrotype to the fairlight CM1"
+image: farm8.staticflickr.com/7014/6797452317_0559039b8d
+slideshow:
+ - caption: Hamilton, R. Just what is it that makes today's homes… 1956
+   embed: 120131155258-5e1ecc0d0a5f42e0a70eb8ddef5545e7
+bibliography:
+ - title: Lawrence Lessig. Free Culture. 2004
+   url: http://www.free-culture.cc/freeculture.pdf
+resources:
+ - title: Youtube playlist
+   subtitle: Some introductory videos on Photoshop. Layers, masks, selection tools, channels, resizing and transforming tools
+   url: http://www.youtube.com/playlist?list=PLEF1239B9DA8979AC&feature=view_all
+   type: youtube
+---
+
+Collage and Photomontage have evolved continuously in the last two hundred years. In this lesson we make an introduction on the history of this medium and the technologies that have shaped it from chemistry to digital samplers. Last part explore in notion of intelectual property and authorship, and the controversial application of old copyright laws in today's digital information era.

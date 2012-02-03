@@ -1,7 +1,12 @@
 <meta charset='UTF-8'/>
+
 <meta name='robots' content='index'/>
+<meta itemprop="name" content="Title of your content">
+
+<meta itemprop="description" content="This would be a description of the content your users are sharing">
 <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" />
+<link rel='alternate' type='application/rss+xml' title='RSS' href='/rss.xml' />
 <!--[if IE]>
 <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
 <![endif]-->
@@ -18,7 +23,7 @@
 <link rel="stylesheet" media="screen" href="/javascripts/lib-css/mosaiqy.css" />
 <script id="mosaiqydemo">
 $(document).ready(function() {
-	$.getJSON("api.flickr.com/services/feeds/photoset.gne?set=72157629102981577&nsid=49838422@N03&jsoncallback=?", {
+	$.getJSON("http://api.flickr.com/services/feeds/photoset.gne?set=72157629102981577&nsid=49838422@N03&format=json&jsoncallback=?", {
 		format : "json"
 	},
 	function(flickrJSON) {
@@ -33,7 +38,7 @@ $(document).ready(function() {
 	 }
 	 $('.mosaiqy').mosaiqy({
 		template        : 'mosaiqy_tpl',
-		rows            : 5,
+		rows            : 1,
 		cols            : 4,
 		avoidDuplicates : true,
 		animationDelay  : 2000,
@@ -45,3 +50,21 @@ $(document).ready(function() {
 	});
 });
 </script>
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'es'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=254343511303416";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

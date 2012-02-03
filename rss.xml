@@ -1,0 +1,35 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>teaching@saul</title>
+		<link>http://saul.javierburon.net/</link>
+		<image>
+			<url>http://farm8.staticflickr.com/7004/6744345435_3b61d78b4e_s.jpg</url>
+			<title>saul.javierburon.net</title>
+			<link>http://saul.javierburon.net/</link>
+			<width>75</width>
+			<height>75</height>
+			<description>Academic work of Javier Burón García</description>
+		</image>
+		<atom:link href="http://saul.javierburon.net/rss.xml" rel="self" type="application/rss+xml" />
+		<description>Academic work of Javier Burón García</description>
+		<language>es</language>
+		<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+		<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+		{% for post in site.categories.lesson %}
+		<item>
+			<title>{{ post.title }}</title>
+			<link>http://saul.javierburon.net{{ post.url }}</link>
+			<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<author>javier.buron@ul.ie (Javier Burón García)</author>
+			<guid>http://saul.javierburon.net{{ post.id }}</guid>
+			<description>{{ post.content | xml_escape }}</description>
+			<media:thumbnail url="http://{{ post.image }}_s.jpg"/>
+			<media:content url="http://{{ post.image }}.jpg"/>
+		</item>
+		{% endfor %}
+	</channel> 
+</rss>

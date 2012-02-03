@@ -1,0 +1,21 @@
+---
+layout: lesson
+title: Tech snippet. Raster graphic file formats
+category: lesson
+tag: Drawing and Representation
+permalink: /drawing-representation/tech-raster-graphics/
+subtitle: A technical lesson explaining and comparing the four most common raster graphic file formats (gif, jpeg, tiff and png) Pixels per inch and dots per inch. Color Depth and Image channels.
+image: farm8.staticflickr.com/7174/6797451239_1f780030ee
+slideshow:
+ - caption: FOA. Virtual House. 1999
+   embed: 120131185123-33f7f252d3624e7e803e6e0d2d2e6031
+resources:
+ - title: Youtube playlist
+   subtitle: Some introductory videos on Photoshop. Layers, masks, selection tools, channels, resizing and transforming tools
+   url: http://www.youtube.com/playlist?list=PLEF1239B9DA8979AC&feature=view_all
+   type: youtube
+---
+
+Raster graphic files are one most widespread graphic formats today. In this lesson we disscuss the most common formats (gif, jpeg, tiff and png) and which ones are most suitable for each different use.
+
+We also explain a concept that sometimes is trickier to understand: resolution, the differences between pixel per inch and dots per inch and how we can decide the right resolution for our images. Lastly color depth and channels are explained, monochrome and grayscale images, 32bit color depth images and High Dynamic Range.
