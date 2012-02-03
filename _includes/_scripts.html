@@ -1,7 +1,12 @@
 <meta charset='UTF-8'/>
 
 <meta name='robots' content='index'/>
-<meta itemprop="name" content="Title of your content">
+<meta itemprop="name" content="{{ page.title }}">
+<meta name="Description" content="{{ page.subtitle }}">
+
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:description" content="{{ page.subtitle }}" />
+<meta property="og:image" content="http://{{ page.image }}.jpg" />
 
 <meta itemprop="description" content="This would be a description of the content your users are sharing">
 <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />

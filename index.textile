@@ -1,6 +1,7 @@
 ---
 layout: default
 title: teaching@saul
+subtitle: These are some of the courses and workshops I have been teaching at SAUL since 2007. I will keep organizing and uploading material periodically until everything is available online.
+image: saul.javierburon.net/images/logo
 ---
 
-These are some of the courses and workshops I have been teaching at SAUL since 2007. I will keep organizing and uploading material periodically until everything is available online.
