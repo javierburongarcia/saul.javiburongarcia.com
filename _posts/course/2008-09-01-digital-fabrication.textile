@@ -11,10 +11,10 @@ image_caption: source http://www.kobbleit.com/blog/wp-content/uploads/2010/12/Ta
 
 Rapid prototyping technologies have been adopted at a very slow rate in architectural schools in Ireland due to misbelief that they are expensive and difficult to operate. The current technology provides low-cost, do-it-yourself kits, which can be assembled without a specialized knowledge in engineering or computer science
 
-The goal of this course is to assembly and learn how to use a 4 by 8 feet cnc router. All the machine parts can be either fabricated by the cnc router itself or found in hardware stores so it can be self-maintained and even it could replicate itself.
+The goal of this course is to assembly and learn how to use a 4 by 8 feet CNC router. All the machine parts can be either fabricated by the CNC router itself or found in hardware stores so it can be self-maintained and even it could replicate itself.
 
 This elective will also provide the theoretical framework, tool expertise and technical skills required to start using rapid prototyping technologies in your own design workflow.
 
 h3. Tools
 
-As well as learning how to use the cnc router once is assembled, the course will present the specific tools needed for producing fabrication-ready files  using 3d modelling and 2d drafting software such as Autocad, Vectorworks, SketchUp and Rhino. It will also show different techniques and good practices for getting the best results during the fabrication process.
+As well as learning how to use the CNC router once is assembled, the course will present the specific tools needed for producing fabrication-ready files  using 3d modeling and 2d drafting software such as Autocad, Vectorworks, SketchUp and Rhino. It will also show different techniques and good practices for getting the best results during the fabrication process.

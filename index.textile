@@ -3,4 +3,4 @@ layout: default
 title: teaching@saul
 ---
 
-These are some of the courses and workshops I have been teaching at SAUL since 2007. I will keep organising and uploading material periodically until everything is available online. 
+These are some of the courses and workshops I have been teaching at SAUL since 2007. I will keep organizing and uploading material periodically until everything is available online.

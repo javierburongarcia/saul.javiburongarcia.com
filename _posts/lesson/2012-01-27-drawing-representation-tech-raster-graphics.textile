@@ -16,6 +16,6 @@ resources:
    type: youtube
 ---
 
-Raster graphic files are one most widespread graphic formats today. In this lesson we disscuss the most common formats (gif, jpeg, tiff and png) and which ones are most suitable for each different use.
+Raster graphic files are one most widespread graphic formats today. In this lesson we discuss the most common formats (gif, jpeg, tiff and png) and which ones are most suitable for each different use.
 
 We also explain a concept that sometimes is trickier to understand: resolution, the differences between pixel per inch and dots per inch and how we can decide the right resolution for our images. Lastly color depth and channels are explained, monochrome and grayscale images, 32bit color depth images and High Dynamic Range.
