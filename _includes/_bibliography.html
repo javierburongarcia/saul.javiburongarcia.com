@@ -3,7 +3,7 @@
 	<h1>{{ site.course_page-bibliography_list_header }}</h1>
 	<ul>
 		{% for entry in page.bibliography %}
-		<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+		<li><a href="{{ entry.url }}" onClick="javascript: pageTracker._trackPageview('/outgoing/bibliography/{{ entry.title }}');">{{ entry.title }}</a></li>
 		{% endfor %}
 	</ul>
 </section>

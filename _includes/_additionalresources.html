@@ -4,7 +4,7 @@
 	<ul>
 		{% for entry in page.resources %}
 		<li>
-			<a href="{{ entry.url }}">
+			<a href="{{ entry.url }}" onClick="javascript: pageTracker._trackPageview('/outgoing/{{ entry.type }}/{{ entry.title }}');">
 			<span class="icon resources-{{ entry.type }}"></span>
 			<hgroup>
 				<h2>{{ entry.title }}</h2>
