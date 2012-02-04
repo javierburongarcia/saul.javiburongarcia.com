@@ -19,6 +19,15 @@ $color_gris_muyclaro: rgb(230,230,230);
 $color_gris_muyclaro2: rgba(255,255,255,0.9);
 $color_gris_muyclaro3: rgba(0,0,0,0.04);
 
+@mixin user-select{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
 @mixin course-header-font {
 	color: black;
 	font-size: 36px;
@@ -127,6 +136,10 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 	border-bottom: 1px solid silver;
 	position:relative;
 	nav{
+		h1{
+			@include user-select;
+			color:white;
+		}
 		ul{
 			width:600px;
 			@include delimited-list(" > ");
@@ -147,6 +160,9 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 	margin-bottom: 30px;
 	padding-top: 10px;
 	border-top: 1px solid silver;
+	a{
+		@include link-colors($color_gris_font, black, black, $color_gris_font, black);
+	}
 }
 
 #course-header{

@@ -1,14 +1,18 @@
 <meta charset='UTF-8'/>
 
 <meta name='robots' content='index'/>
-<meta itemprop="name" content="{{ page.title }}">
 <meta name="Description" content="{{ page.subtitle }}">
+
+<meta itemprop="name" content="{{ page.title }}">
+<meta itemprop="description" content="{{ page.subtitle }}">
+<meta itemprop="author" content="Javier Burón García">
+<meta itemprop="image" content="http://{{ page.image }}.jpg" />
+<meta itemprop="url" content="{{ site.url }}{{ page.url }}" />
 
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:description" content="{{ page.subtitle }}" />
 <meta property="og:image" content="http://{{ page.image }}.jpg" />
 
-<meta itemprop="description" content="This would be a description of the content your users are sharing">
 <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" />
 <link rel='alternate' type='application/rss+xml' title='RSS' href='/rss.xml' />

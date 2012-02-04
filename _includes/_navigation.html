@@ -1,11 +1,11 @@
-{% if page.title == "teaching@saul" %}
+
 <nav>
+	<h1>Navigation</h1>
+	{% if page.title == "teaching@saul" %}
 	<ul>
 		<li><a href="/" rel="home">{{ site.home_page-title }}</a></li>
 	</ul>
-</nav>
-{% else %}
-<nav>
+	{% else %}
 	<ul>
 		<li><a href="/" rel="home">{{ site.home_page-title }}</a></li>
 		{% if page.category == "lesson" %}
@@ -17,5 +17,5 @@
 		{% endif %}
 		<li><a href="{{ page.url }}" >{{ page.title }}</a></li>
 	</ul>
+	{% endif %}
 </nav>
-{% endif %}

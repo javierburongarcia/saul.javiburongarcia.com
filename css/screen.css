@@ -1,4 +1,4 @@
-/* line 17, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -136,27 +136,27 @@ body #footer {
   background: url('/images/resources-se5724053cb.png') no-repeat;
 }
 
-/* line 60, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .resources-delicious {
   background-position: 0 0;
 }
 
-/* line 60, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .resources-image {
   background-position: 0 -48px;
 }
 
-/* line 60, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .resources-youtube {
   background-position: 0 -96px;
 }
 
-/* line 10, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 10, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%;
 }
 
-/* line 12, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 12, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #container {
   clear: both;
   min-height: 100%;
@@ -164,19 +164,19 @@ html, body {
   height: 100%;
   margin-bottom: -54px;
 }
-/* line 18, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 18, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #container .push {
   height: 54px;
 }
 
-/* line 20, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
   height: 54px;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .mosaiqy li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -191,12 +191,12 @@ html, body {
   border-left: 1px solid white;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .mosaiqy img {
   width: 120px;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 #header {
   color: #262626;
   display: block;
@@ -208,56 +208,67 @@ html, body {
   border-bottom: 1px solid silver;
   position: relative;
 }
-/* line 130, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
+#header nav h1 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: white;
+}
+/* line 143, ../sass/screen.scss */
 #header nav ul {
   width: 600px;
   list-style-type: none;
 }
-/* line 5, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+/* line 5, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
 #header nav ul, #header nav ul li {
   margin: 0px;
   padding: 0px;
   display: inline;
 }
-/* line 29, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+/* line 29, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
 #header nav ul li:after {
   content: " > ";
 }
-/* line 31, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+/* line 31, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
 #header nav ul li:last-child:after {
   content: "";
 }
-/* line 34, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+/* line 34, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
 #header nav ul li.last:after {
   content: "";
 }
-/* line 133, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #header nav ul a {
   text-decoration: none;
   color: #262626;
 }
-/* line 4, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+/* line 4, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
 #header nav ul a:hover {
   text-decoration: underline;
 }
-/* line 18, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #header nav ul a:visited {
   color: #262626;
 }
-/* line 21, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #header nav ul a:focus {
   color: black;
 }
-/* line 24, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #header nav ul a:hover {
   color: black;
 }
-/* line 27, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #header nav ul a:active {
   color: black;
 }
 
-/* line 143, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 #footer {
   color: #262626;
   display: block;
@@ -269,14 +280,34 @@ html, body {
   padding-top: 10px;
   border-top: 1px solid silver;
 }
+/* line 163, ../sass/screen.scss */
+#footer a {
+  color: #262626;
+}
+/* line 18, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#footer a:visited {
+  color: #262626;
+}
+/* line 21, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#footer a:focus {
+  color: black;
+}
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#footer a:hover {
+  color: black;
+}
+/* line 27, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#footer a:active {
+  color: black;
+}
 
-/* line 152, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 #course-header {
   height: 300px;
   margin-bottom: 40px;
   position: relative;
 }
-/* line 156, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 #course-header .caption {
   position: absolute;
   right: 5px;
@@ -289,7 +320,7 @@ html, body {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 165, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 #course-header h1 {
   display: inline;
   color: black;
@@ -304,11 +335,11 @@ html, body {
   position: absolute;
 }
 
-/* line 177, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 #col-left.home {
   position: relative;
 }
-/* line 179, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 #col-left.home h1 {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -327,14 +358,14 @@ html, body {
   z-index: 1000;
 }
 
-/* line 193, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .course h1, .lesson h1 {
   display: block;
   font-size: 28px;
   line-height: 36px;
   font-family: DroidSerif,Helvetica,Arial,sans-serif;
 }
-/* line 196, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 .course h2, .lesson h2 {
   display: block;
   opacity: 0.65;
@@ -346,7 +377,7 @@ html, body {
   padding-top: 15px;
   padding-bottom: 25px;
 }
-/* line 201, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .course .subtitle, .lesson .subtitle {
   display: block;
   opacity: 0.65;
@@ -358,29 +389,29 @@ html, body {
   padding-top: 0px;
   padding-bottom: 20px;
 }
-/* line 206, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .course a, .lesson a {
   color: inherit;
   text-decoration: underline;
   color: black;
 }
-/* line 18, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .course a:visited, .lesson a:visited {
   color: #262626;
 }
-/* line 21, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .course a:focus, .lesson a:focus {
   color: black;
 }
-/* line 24, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .course a:hover, .lesson a:hover {
   color: #262626;
 }
-/* line 27, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .course a:active, .lesson a:active {
   color: black;
 }
-/* line 211, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 .course h3, .course h4, .lesson h3, .lesson h4 {
   display: block;
   font-size: 18px;
@@ -389,11 +420,11 @@ html, body {
   padding-top: 10px;
   padding-bottom: 5px;
 }
-/* line 214, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .course p:first-child, .lesson p:first-child {
   padding-top: 0px;
 }
-/* line 217, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 .course p, .lesson p {
   display: block;
   font-size: 14px;
@@ -402,21 +433,21 @@ html, body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 95, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .course p strong, .lesson p strong {
   font-weight: bold;
 }
-/* line 220, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .course ul, .lesson ul {
   margin-bottom: 30px;
   list-style-type: circle;
 }
-/* line 223, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 .course ul li, .lesson ul li {
   margin-bottom: 5px;
 }
 
-/* line 228, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .keynote {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -433,7 +464,7 @@ html, body {
   -khtml-border-radius: 5px / 5px;
   border-radius: 5px / 5px;
 }
-/* line 235, ../sass/screen.scss */
+/* line 251, ../sass/screen.scss */
 .keynote figcaption {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -447,12 +478,12 @@ html, body {
   font-size: 13px;
   color: gray;
 }
-/* line 95, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .keynote figcaption strong {
   font-weight: bold;
 }
 
-/* line 245, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 .bibliography-list h1 {
   display: block;
   opacity: 0.65;
@@ -465,7 +496,7 @@ html, body {
   padding-bottom: 5px;
   color: black;
 }
-/* line 251, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .bibliography-list ul {
   border-top: 1px solid gray;
   display: block;
@@ -476,53 +507,53 @@ html, body {
   padding-bottom: 10px;
   list-style-type: circle;
 }
-/* line 95, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .bibliography-list ul strong {
   font-weight: bold;
 }
-/* line 255, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 .bibliography-list ul li {
   padding-top: 1px;
   padding-bottom: 1px;
   font-size: 13px;
 }
-/* line 259, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 .bibliography-list ul li a {
   color: inherit;
   text-decoration: inherit;
   cursor: inherit;
   color: #262626;
 }
-/* line 6, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+/* line 6, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
 .bibliography-list ul li a:active, .bibliography-list ul li a:focus {
   outline: none;
 }
-/* line 18, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .bibliography-list ul li a:visited {
   color: #262626;
 }
-/* line 21, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .bibliography-list ul li a:focus {
   color: black;
 }
-/* line 24, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .bibliography-list ul li a:hover {
   color: black;
 }
-/* line 27, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .bibliography-list ul li a:active {
   color: black;
 }
 
-/* line 267, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 .lesson-list, .courses-list, .related-lesson-list, .additional-resources {
   margin-bottom: 40px;
 }
-/* line 269, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 .lesson-list:last-child, .courses-list:last-child, .related-lesson-list:last-child, .additional-resources:last-child {
   margin-bottom: 0px;
 }
-/* line 272, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 .lesson-list h1, .courses-list h1, .related-lesson-list h1, .additional-resources h1 {
   display: block;
   opacity: 0.65;
@@ -536,44 +567,44 @@ html, body {
   color: black;
   opacity: 1;
 }
-/* line 279, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .lesson-list ul, .courses-list ul, .related-lesson-list ul, .additional-resources ul {
   border-top: 1px solid silver;
   border-bottom: 1px solid silver;
 }
-/* line 282, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 .lesson-list ul li, .courses-list ul li, .related-lesson-list ul li, .additional-resources ul li {
   height: 70px;
   border-bottom: 1px solid #e6e6e6;
 }
-/* line 283, ../sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 .lesson-list ul li a, .courses-list ul li a, .related-lesson-list ul li a, .additional-resources ul li a {
   color: inherit;
   text-decoration: inherit;
   cursor: inherit;
   color: #262626;
 }
-/* line 6, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+/* line 6, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
 .lesson-list ul li a:active, .courses-list ul li a:active, .lesson-list ul li a:focus, .courses-list ul li a:focus, .related-lesson-list ul li a:active, .related-lesson-list ul li a:focus, .additional-resources ul li a:active, .additional-resources ul li a:focus {
   outline: none;
 }
-/* line 18, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .lesson-list ul li a:visited, .courses-list ul li a:visited, .related-lesson-list ul li a:visited, .additional-resources ul li a:visited {
   color: #262626;
 }
-/* line 21, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .lesson-list ul li a:focus, .courses-list ul li a:focus, .related-lesson-list ul li a:focus, .additional-resources ul li a:focus {
   color: black;
 }
-/* line 24, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .lesson-list ul li a:hover, .courses-list ul li a:hover, .related-lesson-list ul li a:hover, .additional-resources ul li a:hover {
   color: black;
 }
-/* line 27, ../../../../../Downloads/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .lesson-list ul li a:active, .courses-list ul li a:active, .related-lesson-list ul li a:active, .additional-resources ul li a:active {
   color: black;
 }
-/* line 287, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 .lesson-list ul li:link, .courses-list ul li:link, .lesson-list ul li:visited, .courses-list ul li:visited, .lesson-list ul li:active, .courses-list ul li:active, .lesson-list ul li:focus, .courses-list ul li:focus, .related-lesson-list ul li:link, .related-lesson-list ul li:visited, .related-lesson-list ul li:active, .related-lesson-list ul li:focus, .additional-resources ul li:link, .additional-resources ul li:visited, .additional-resources ul li:active, .additional-resources ul li:focus {
   -moz-transition: all 0.25s linear;
   -webkit-transition: all 0.25s linear;
@@ -581,7 +612,7 @@ html, body {
   transition: all 0.25s linear;
   background-color: white;
 }
-/* line 291, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .lesson-list ul li:hover, .courses-list ul li:hover, .related-lesson-list ul li:hover, .additional-resources ul li:hover {
   background-color: rgba(0, 0, 0, 0.04);
   -moz-transition: all 0.25s linear;
@@ -589,7 +620,7 @@ html, body {
   -o-transition: all 0.25s linear;
   transition: all 0.25s linear;
 }
-/* line 297, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 .lesson-list ul li .thumbnail, .courses-list ul li .thumbnail, .related-lesson-list ul li .thumbnail, .additional-resources ul li .thumbnail {
   display: inline;
   float: left;
@@ -608,7 +639,7 @@ html, body {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 306, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
 .lesson-list ul li .icon, .courses-list ul li .icon, .related-lesson-list ul li .icon, .additional-resources ul li .icon {
   display: inline;
   float: left;
@@ -617,14 +648,14 @@ html, body {
   width: 50px;
   display: block;
 }
-/* line 313, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 .lesson-list ul li hgroup, .courses-list ul li hgroup, .related-lesson-list ul li hgroup, .additional-resources ul li hgroup {
   height: 70px;
   padding-left: 10px;
   display: table-cell;
   vertical-align: middle;
 }
-/* line 318, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
 .lesson-list ul li hgroup h2, .courses-list ul li hgroup h2, .related-lesson-list ul li hgroup h2, .additional-resources ul li hgroup h2 {
   display: block;
   font-size: 14px;
@@ -638,11 +669,11 @@ html, body {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-/* line 95, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .lesson-list ul li hgroup h2 strong, .courses-list ul li hgroup h2 strong, .related-lesson-list ul li hgroup h2 strong, .additional-resources ul li hgroup h2 strong {
   font-weight: bold;
 }
-/* line 326, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 .lesson-list ul li hgroup h3, .courses-list ul li hgroup h3, .related-lesson-list ul li hgroup h3, .additional-resources ul li hgroup h3 {
   display: block;
   font-size: 14px;
@@ -656,20 +687,20 @@ html, body {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-/* line 95, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .lesson-list ul li hgroup h3 strong, .courses-list ul li hgroup h3 strong, .related-lesson-list ul li hgroup h3 strong, .additional-resources ul li hgroup h3 strong {
   font-weight: bold;
 }
-/* line 335, ../sass/screen.scss */
+/* line 351, ../sass/screen.scss */
 .lesson-list ul li:last-child, .courses-list ul li:last-child, .related-lesson-list ul li:last-child, .additional-resources ul li:last-child {
   border-bottom: none;
 }
 
-/* line 342, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 .courses-list {
   opacity: 1;
 }
-/* line 344, ../sass/screen.scss */
+/* line 360, ../sass/screen.scss */
 .courses-list h1 {
   display: block;
   font-size: 28px;
@@ -679,7 +710,7 @@ html, body {
   opacity: 1;
   padding-bottom: 0px;
 }
-/* line 350, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
 .courses-list h2 {
   display: block;
   opacity: 0.65;
