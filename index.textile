@@ -1,7 +1,7 @@
 ---
 layout: default
 title: teaching@saul
-subtitle: These are some of the courses and workshops I have been teaching at SAUL since 2007. I will keep organizing and uploading material periodically until everything is available online.
+subtitle: I have started to publish courses and workshops that I have been teaching at School of Architecture, University of Limerick since 2007. I will keep compiling and uploading all my material periodically until everything is available online.
 image: saul.javierburon.net/images/logo
 ---
 

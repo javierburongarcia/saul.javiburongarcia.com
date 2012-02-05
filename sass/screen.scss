@@ -19,6 +19,13 @@ $color_gris_muyclaro: rgb(230,230,230);
 $color_gris_muyclaro2: rgba(255,255,255,0.9);
 $color_gris_muyclaro3: rgba(0,0,0,0.04);
 
+.addthis_toolbox{
+	position:absolute;
+	right:0px;
+	opacity:0.5;
+	bottom:8px;
+}
+
 @mixin user-select{
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -139,6 +146,7 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 		h1{
 			@include user-select;
 			color:white;
+			display:hidden;
 		}
 		ul{
 			width:600px;
