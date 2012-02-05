@@ -15,6 +15,7 @@
 @include sticky-footer(54px, "#container", ".push", "#footer");
 
 $color_gris_font: rgb(38,38,38);
+$color_gris_font2: rgb(150,150,150);
 $color_gris_muyclaro: rgb(230,230,230);
 $color_gris_muyclaro2: rgba(255,255,255,0.9);
 $color_gris_muyclaro3: rgba(0,0,0,0.04);
@@ -160,8 +161,19 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 	margin-bottom: 30px;
 	padding-top: 10px;
 	border-top: 1px solid silver;
-	a{
-		@include link-colors($color_gris_font, black, black, $color_gris_font, black);
+	footer{
+		p{
+			color:$color_gris_font2;
+			padding-bottom:10px;
+			a{
+				@include hover-link;
+				@include link-colors($color_gris_font, $color_gris_font, $color_gris_font, $color_gris_font, $color_gris_font);
+			
+			}
+		}
+		&:last{
+			color:gray;
+		}
 	}
 }
 
