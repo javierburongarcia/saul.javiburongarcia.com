@@ -8,13 +8,12 @@
 @import "compass/typography/links/link-colors";
 @import "compass/typography/lists/inline-list";
 @import "compass/utilities/general/clearfix";
-@import "compass/layout/sticky-footer";
+
 @import "compass/typography/links/unstyled-link";
 @import "resources/*.png";
 @include all-resources-sprites;
-@include sticky-footer(54px, "#container", ".push", "#footer");
 
-$color_gris_font: rgb(38,38,38);
+$color_gris_font: rgb(75,75,75);
 $color_gris_font2: rgb(150,150,150);
 $color_gris_muyclaro: rgb(230,230,230);
 $color_gris_muyclaro2: rgba(255,255,255,0.9);
@@ -151,7 +150,6 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 		}
 		.botones-sociales{
 		}
-
 	}
 }
 #footer{
@@ -159,7 +157,7 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	padding-top: 10px;
+	padding-top: 20px;
 	border-top: 1px solid silver;
 	footer{
 		p{
@@ -168,7 +166,6 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 			a{
 				@include hover-link;
 				@include link-colors($color_gris_font, $color_gris_font, $color_gris_font, $color_gris_font, $color_gris_font);
-			
 			}
 		}
 		&:last{
