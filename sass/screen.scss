@@ -126,13 +126,19 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 	overflow: hidden;
 	position: absolute;
 	width: 120px;
-	height: 70px;
+	height: 90px;
 	background-color: black;
 	border-top:1px solid white;
 	border-left:1px solid white;
 }
-.mosaiqy img {
+.mosaiqy img{
+	height: 90px;
+}
+.mosaiqy img.escalarAncho {
 	width: 120px;
+}
+.mosaiqy img.escalarAlto {
+	height: 90px;
 }
 
 #header{
@@ -212,12 +218,12 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 	 h1{
 		@include box-sizing(border-box);
 		width:360px;
-		height:70px;
+		height:90px;
 		position:absolute;
 		padding-left:15px;
 		padding-top:20px;
 		background:$color_gris_muyclaro2;
-		top:70px;
+		top:90px;
 		@include course-header-font;
 		z-index:1000;
 	}
