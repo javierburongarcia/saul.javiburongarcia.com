@@ -1,0 +1,24 @@
+---
+layout: lesson
+title: Socially Responsible Design
+category: course
+tag: 
+permalink: socially-resposible-design/
+subtitle: This 2009 talk for third year students showcased several initiatives with socially responsible approaches
+image: farm8.staticflickr.com/7164/6831533469_97f6744825
+slideshow:
+ - caption: 
+   embed: 120206201851-6c0fc6c01a284b69b8713a07fb189500
+resources:
+ - title: Delicious stack 
+   subtitle: All the case studies explained during the talk
+   url: http://delicious.com/stacks/view/RBPCRX
+   type: delicious
+publish: yes
+---
+
+During the last years of the 20th century mainstream architecture and design progressively lost interest in socially concern issues that decades ago were central in every architecture debate. Recently a new generation of designers have reclaimed an active role in today's society new challenges with innovative ideas and approaches.
+
+This was an introductory talk for 3rd year architecture Design Studio featuring some of these projects. The talk was structured in four different approaches or themes: 
+
+**Reuse not recycle** presents four non-hightech projects about energy efficiency; **New social models** showcases four initiatives that question traditional social interaction models; **Understanding popular media** describes two projects intimately related to mass media perception on public issues; & **Self-made architecture** features two built projects in which users interaction goes beyond the expected.

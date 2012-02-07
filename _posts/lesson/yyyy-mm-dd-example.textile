@@ -1,0 +1,21 @@
+---
+layout: 
+title: 
+category: 
+tag: 
+permalink: 
+subtitle: 
+image: 
+slideshow:
+ - caption: 
+   embed: 
+resources:
+ - title: Youtube playlist
+   subtitle: Some introductory videos on Photoshop. Layers, masks, selection tools, channels, resizing and transforming tools
+   url: http://www.youtube.com/playlist?list=PLEF1239B9DA8979AC&feature=view_all
+   type: youtube
+---
+
+Raster graphic files are one most widespread graphic formats today. In this lesson we discuss the most common formats (gif, jpeg, tiff and png) and which ones are most suitable for each different use.
+
+We also explain a concept that sometimes is trickier to understand: resolution, the differences between pixel per inch and dots per inch and how we can decide the right resolution for our images. Lastly color depth and channels are explained, monochrome and grayscale images, 32bit color depth images and High Dynamic Range.

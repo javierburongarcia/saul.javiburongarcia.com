@@ -22,7 +22,7 @@
 					<h2>{{ page.subtitle }}</h2>
 				</hgroup>
 				<ul>
-				{% for course in site.categories.course %}
+				{% for course in site.categories.course reversed %}
 					<li>
 						<a href="{{ course.url }}">
 							<span class="thumbnail" style="background-image:url(http://{{ course.image }}_s.jpg)"></span>

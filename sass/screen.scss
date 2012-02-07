@@ -250,6 +250,9 @@ $color_gris_muyclaro3: rgba(0,0,0,0.04);
 	p{
 		@include body-post-font;
 	}
+	b{
+		font-weight: bold;
+	}
 	ul{
 		margin-bottom:30px;
 		list-style-type:circle;

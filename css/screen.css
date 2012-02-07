@@ -454,16 +454,20 @@ body #footer {
   font-weight: bold;
 }
 /* line 253, ../sass/screen.scss */
+.course b, .lesson b {
+  font-weight: bold;
+}
+/* line 256, ../sass/screen.scss */
 .course ul, .lesson ul {
   margin-bottom: 30px;
   list-style-type: circle;
 }
-/* line 256, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 .course ul li, .lesson ul li {
   margin-bottom: 5px;
 }
 
-/* line 261, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .keynote {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -480,7 +484,7 @@ body #footer {
   -khtml-border-radius: 5px / 5px;
   border-radius: 5px / 5px;
 }
-/* line 268, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 .keynote figcaption {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -499,7 +503,7 @@ body #footer {
   font-weight: bold;
 }
 
-/* line 278, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .bibliography-list h1 {
   display: block;
   opacity: 0.65;
@@ -512,7 +516,7 @@ body #footer {
   padding-bottom: 5px;
   color: black;
 }
-/* line 284, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 .bibliography-list ul {
   border-top: 1px solid gray;
   display: block;
@@ -527,13 +531,13 @@ body #footer {
 .bibliography-list ul strong {
   font-weight: bold;
 }
-/* line 288, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .bibliography-list ul li {
   padding-top: 1px;
   padding-bottom: 1px;
   font-size: 13px;
 }
-/* line 292, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .bibliography-list ul li a {
   color: inherit;
   text-decoration: inherit;
@@ -561,15 +565,15 @@ body #footer {
   color: black;
 }
 
-/* line 300, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 .lesson-list, .courses-list, .related-lesson-list, .additional-resources {
   margin-bottom: 40px;
 }
-/* line 302, ../sass/screen.scss */
+/* line 305, ../sass/screen.scss */
 .lesson-list:last-child, .courses-list:last-child, .related-lesson-list:last-child, .additional-resources:last-child {
   margin-bottom: 0px;
 }
-/* line 305, ../sass/screen.scss */
+/* line 308, ../sass/screen.scss */
 .lesson-list h1, .courses-list h1, .related-lesson-list h1, .additional-resources h1 {
   display: block;
   opacity: 0.65;
@@ -583,17 +587,17 @@ body #footer {
   color: black;
   opacity: 1;
 }
-/* line 312, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 .lesson-list ul, .courses-list ul, .related-lesson-list ul, .additional-resources ul {
   border-top: 1px solid silver;
   border-bottom: 1px solid silver;
 }
-/* line 315, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 .lesson-list ul li, .courses-list ul li, .related-lesson-list ul li, .additional-resources ul li {
   height: 70px;
   border-bottom: 1px solid #e6e6e6;
 }
-/* line 316, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 .lesson-list ul li a, .courses-list ul li a, .related-lesson-list ul li a, .additional-resources ul li a {
   color: inherit;
   text-decoration: inherit;
@@ -620,7 +624,7 @@ body #footer {
 .lesson-list ul li a:active, .courses-list ul li a:active, .related-lesson-list ul li a:active, .additional-resources ul li a:active {
   color: black;
 }
-/* line 320, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 .lesson-list ul li:link, .courses-list ul li:link, .lesson-list ul li:visited, .courses-list ul li:visited, .lesson-list ul li:active, .courses-list ul li:active, .lesson-list ul li:focus, .courses-list ul li:focus, .related-lesson-list ul li:link, .related-lesson-list ul li:visited, .related-lesson-list ul li:active, .related-lesson-list ul li:focus, .additional-resources ul li:link, .additional-resources ul li:visited, .additional-resources ul li:active, .additional-resources ul li:focus {
   -moz-transition: all 0.25s linear;
   -webkit-transition: all 0.25s linear;
@@ -628,7 +632,7 @@ body #footer {
   transition: all 0.25s linear;
   background-color: white;
 }
-/* line 324, ../sass/screen.scss */
+/* line 327, ../sass/screen.scss */
 .lesson-list ul li:hover, .courses-list ul li:hover, .related-lesson-list ul li:hover, .additional-resources ul li:hover {
   background-color: rgba(0, 0, 0, 0.04);
   -moz-transition: all 0.25s linear;
@@ -636,7 +640,7 @@ body #footer {
   -o-transition: all 0.25s linear;
   transition: all 0.25s linear;
 }
-/* line 330, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 .lesson-list ul li .thumbnail, .courses-list ul li .thumbnail, .related-lesson-list ul li .thumbnail, .additional-resources ul li .thumbnail {
   display: inline;
   float: left;
@@ -655,7 +659,7 @@ body #footer {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 339, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 .lesson-list ul li .icon, .courses-list ul li .icon, .related-lesson-list ul li .icon, .additional-resources ul li .icon {
   display: inline;
   float: left;
@@ -664,14 +668,14 @@ body #footer {
   width: 50px;
   display: block;
 }
-/* line 346, ../sass/screen.scss */
+/* line 349, ../sass/screen.scss */
 .lesson-list ul li hgroup, .courses-list ul li hgroup, .related-lesson-list ul li hgroup, .additional-resources ul li hgroup {
   height: 70px;
   padding-left: 10px;
   display: table-cell;
   vertical-align: middle;
 }
-/* line 351, ../sass/screen.scss */
+/* line 354, ../sass/screen.scss */
 .lesson-list ul li hgroup h2, .courses-list ul li hgroup h2, .related-lesson-list ul li hgroup h2, .additional-resources ul li hgroup h2 {
   display: block;
   font-size: 14px;
@@ -689,7 +693,7 @@ body #footer {
 .lesson-list ul li hgroup h2 strong, .courses-list ul li hgroup h2 strong, .related-lesson-list ul li hgroup h2 strong, .additional-resources ul li hgroup h2 strong {
   font-weight: bold;
 }
-/* line 359, ../sass/screen.scss */
+/* line 362, ../sass/screen.scss */
 .lesson-list ul li hgroup h3, .courses-list ul li hgroup h3, .related-lesson-list ul li hgroup h3, .additional-resources ul li hgroup h3 {
   display: block;
   font-size: 14px;
@@ -707,16 +711,16 @@ body #footer {
 .lesson-list ul li hgroup h3 strong, .courses-list ul li hgroup h3 strong, .related-lesson-list ul li hgroup h3 strong, .additional-resources ul li hgroup h3 strong {
   font-weight: bold;
 }
-/* line 368, ../sass/screen.scss */
+/* line 371, ../sass/screen.scss */
 .lesson-list ul li:last-child, .courses-list ul li:last-child, .related-lesson-list ul li:last-child, .additional-resources ul li:last-child {
   border-bottom: none;
 }
 
-/* line 375, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 .courses-list {
   opacity: 1;
 }
-/* line 377, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 .courses-list h1 {
   display: block;
   font-size: 28px;
@@ -726,7 +730,7 @@ body #footer {
   opacity: 1;
   padding-bottom: 0px;
 }
-/* line 383, ../sass/screen.scss */
+/* line 386, ../sass/screen.scss */
 .courses-list h2 {
   display: block;
   opacity: 0.65;
