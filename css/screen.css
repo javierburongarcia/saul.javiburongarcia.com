@@ -150,8 +150,8 @@ body #footer {
 }
 
 /* line 39, resources */
-.resources-sprite, .resources-delicious, .resources-image, .resources-youtube {
-  background: url('/images/resources-se5724053cb.png') no-repeat;
+.resources-sprite, .resources-delicious, .resources-dropbox, .resources-youtube {
+  background: url('/images/resources-s40f49b0d99.png') no-repeat;
 }
 
 /* line 60, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -160,7 +160,7 @@ body #footer {
 }
 
 /* line 60, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.resources-image {
+.resources-dropbox {
   background-position: 0 -48px;
 }
 

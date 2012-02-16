@@ -19,8 +19,8 @@ resources:
    type: youtube
  - title: Layered image file photomontage TIFF
    subtitle: Venice Biennale 2008 by Javier Burón (cc-by-sa)
-   url: http://dl.dropbox.com/u/8350980/VeniceBiennalePhotomontage.tif
-   type: image
+   url: http://dl.dropbox.com/u/8350980/teaching%40saul/Drawing%20and%20Representation%20-%20Collage%20%26%20Photomontage%20-%20example%20-%20Venice%20Biennale%20Photomontage.tif
+   type: dropbox
 ---
 
 Collage and Photomontage have evolved continuously in the last two hundred years. In this lesson we make an introduction on the history of this medium and the technologies that have shaped it from chemistry to digital samplers. Last part explore in notion of intellectual property and authorship, and the controversial application of old copyright laws in today's digital information era.

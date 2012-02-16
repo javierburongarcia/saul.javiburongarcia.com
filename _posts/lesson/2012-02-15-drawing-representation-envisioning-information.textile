@@ -1,0 +1,35 @@
+---
+layout: lesson
+title: Envisioning information
+category: lesson
+tag: Drawing and Representation
+permalink: /drawing-representation/envisioning-information/
+subtitle: This lesson introduces drawing as a medium of communication.
+image: farm8.staticflickr.com/7209/6886572701_ef509012b4
+slideshow:
+ - caption: Japanese Statistics Report. Population census results. 1980
+   embed: 120216154849-1d6946c65d7b4395af6f52ab93455bd3
+   source: issuu
+resources:
+ - title: Delicious stack 
+   subtitle: Books, lectures and more links on visual communication
+   url: http://delicious.com/stacks/view/FYpRsC
+   type: delicious
+ - title: Brief analysis using a spreadsheet
+   subtitle: Competition 2007 by Javier Burón (cc-by-sa)
+   url: http://dl.dropbox.com/u/8350980/teaching%40saul/Drawing%20and%20Representation%20-%20Envisioning%20information%20-%20example%20-%20brief%20analysis.odsl
+   type: dropbox
+bibliography:
+ - title: Josef Albers. Interaction of Color, Revised and Expanded Edition. 2006
+   url: http://yalepress.yale.edu/book.asp?isbn=9780300115956
+ - title: Edward Tufte. Beautiful Evidence. 2006
+   url: http://www.edwardtufte.com/tufte/books_be
+ - title: Scott McCloud. Understanding Comics. 1993
+   url: http://scottmccloud.com/2-print/1-uc/index.html
+---
+
+Drawing is a powerful medium for shaping, testing and communicating spatial concepts. Apart from the obvious mechanical skills and practice that drawing requires there is a vast range of disciplines that could help us to improve greatly our graphic communication skills. Light physics, color theory and perception theory are some of of them and commonly grouped as visual communication studies.
+
+This is an introduction on visual communication and it is largely based on the fantastic work of Edward Rolf Tufte, expert on information design and pioneer in the field of data visualization. The lesson also describes several techniques visual communication such as micro and macro readings, layering and Separation, and the use of color in information design.
+
+The lesson includes real world example available for download: An architectural competition brief redesigned as a preliminary analysis tool.
