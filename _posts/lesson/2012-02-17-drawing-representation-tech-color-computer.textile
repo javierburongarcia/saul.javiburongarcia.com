@@ -1,0 +1,22 @@
+---
+layout: lesson
+title: Tech snippet. Color in computer
+category: lesson
+tag: Drawing and Representation
+permalink: /drawing-representation/tech-color-computer/
+subtitle: An introduction to color theory with special emphasis on color representation in digital tools.
+image: farm8.staticflickr.com/7065/6886571985_5d1d683a5f
+slideshow:
+ - caption: Javier Burón. Why people do like puzzles? Illustration. 2007
+   embed: 120217172801-89b704b1832c4768b62ea11ec1583456
+   source: issuu
+resources:
+ - title: Using the HSV color model to represent depth
+   subtitle: Facade diagram 2003 by Javier Burón (cc-by-sa)
+   url: http://dl.dropbox.com/u/8350980/teaching%40saul/Drawing%20and%20Representation%20-%20tech%20snippet%20color%20%26%20computer%20-%20example%20-%20diagram.svg
+   type: dropbox
+---
+
+This lesson describe the three most common groups of color models in computer graphics: RGB and CMYK based on the physiology of human vision, HSV and HSL which try to simplify the use by defining abstract attributes more recognizable by human vision, and the standardized method used in Pantone and RAL color systems.
+
+Each group has certain strengths and weaknesses, understanding them would help us to work with color in computers graphics. A real world example about how to use HSV color pickers for rendering volumes is also included.
