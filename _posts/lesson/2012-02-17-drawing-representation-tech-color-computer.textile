@@ -4,7 +4,7 @@ title: Tech snippet. Color in computer
 category: lesson
 tag: Drawing and Representation
 permalink: /drawing-representation/tech-color-computer/
-subtitle: An introduction to color theory with special emphasis on color representation in digital tools.
+subtitle: An introduction to color theory with special emphasis on representing color with digital tools.
 image: farm8.staticflickr.com/7065/6886571985_5d1d683a5f
 slideshow:
  - caption: Javier Burón. Why people do like puzzles? Illustration. 2007
