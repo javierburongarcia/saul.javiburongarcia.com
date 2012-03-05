@@ -1,0 +1,31 @@
+---
+layout: lesson
+title: Type features
+category: lesson
+tag: Drawing and Representation
+permalink: /drawing-representation/type-features/
+subtitle: An introduction on basic type features that define the tone, readability and legibility of any written text
+image: farm8.staticflickr.com/7181/6806928478_b542260f56
+slideshow:
+ - caption: Futura - Paul Renner 1927 & Garamond - Claude Garamond 1650
+   embed: 120304185332-f804db41a17245f98a290aa4e54f8649
+   source: issuu
+resources:
+ - title: Youtube playlist
+   subtitle: Tutorials on type properties
+   url: http://www.youtube.com/playlist?list=PL0A380F6BFA3DD048
+   type: youtube
+ - title: The saul press publications
+   subtitle: Books published by saul's third year students
+   url: http://www.lulu.com/spotlight/thesaulpress
+   type: delicious
+bibliography:
+ - title: "Lynda.com | InDesign CS4: Typography by Nigel French. 2009"
+   url: http://www.lynda.com/InDesign-CS4-tutorials/typography/53540-2.html
+ - title: "Robert Bringhurst. The elements of typographic style. 1992"
+   url: http://www.lynda.com/InDesign-CS4-tutorials/typography/53540-2.html
+---
+
+Typeface, type size, leading, line length and text alignment are basic features that anyone which type text should know. In this lesson we explore in detail each of these features using examples and showing useful techniques for starting working with them as fast as possible.
+
+Each year Drawing and Representation teams up with the History and Theory course taught by Irénée Scalbert typesetting and publishing a compilation of all the essays written by the students for his course. You can find all these books on _the SAUL press_ lulu.com website
