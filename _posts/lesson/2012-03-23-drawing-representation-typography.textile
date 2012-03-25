@@ -1,0 +1,29 @@
+---
+layout: lesson
+title: Typography
+category: lesson
+tag: Drawing and Representation
+permalink: /drawing-representation/typography/
+subtitle: A linear journey of the history of typography making special emphasis on the connection with architecture
+image: farm8.staticflickr.com/7128/7010434739_20ee7992f3
+slideshow: 
+ - caption: Apollodorus of Damascus. Trajan's Column. circa 113
+   embed: 120324080849-925941204e9f4f4cb47096021b1a3ea0
+resources:
+ - title: Youtube playlist
+   subtitle: Indesign CS5 tutorials on styles, master pages, footnotes and page numbers
+   url: http://www.youtube.com/playlist?list=PLF85BD49BD1615232
+   type: youtube
+ - title: Helvetica
+   subtitle: A documentary Film by Gary Huswit, 2007
+   url: http://www.helveticafilm.com/
+   type: youtube
+bibliography:
+ - title: "Warren Chappell & Robert Bringhurst. A Short History of the Printed Word. 2000"
+   url: http://www.goodreads.com/book/show/154672.A_Short_History_of_the_Printed_Word
+ - title: "Burke, James The Day the Universe Changed, Episode 4. 1985"
+   url: http://www.youtube.com/watch?v=GGHIS8ErZhE
+
+---
+
+This is an introduction of typography as part of the historic context –together with science, art and techology– in which Architecture has evolved in the last five hundred years. The lesson provides a basic understanding of the typographic form through history so we will be able to understand its evolution and identify typefaces historically.
