@@ -20,3 +20,4 @@ bibliography:
 ---
 
 An introduction on digital fabrication and how it is profoundly changing the way we produce physical objects; from small-batch custom-made object manufacture to architectural work. A range of different fabrication technologies are presented, making special emphasis on Do-it-yourself alternatives. Open source and  self-replication is also discussed showcasing the Reprap project and the rapid growing independent maker scene.
+
