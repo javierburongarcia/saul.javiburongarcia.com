@@ -1,6 +1,8 @@
 auto: true
 permalink: /:year/:month/:categories/:title/
 url: http://saul.javierburon.net
+prose:
+  rooturl: "_posts"
 
 home_page-title: SAUL
 home_page-course_list: Courses
