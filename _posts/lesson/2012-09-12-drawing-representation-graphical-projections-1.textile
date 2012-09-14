@@ -1,0 +1,29 @@
+---
+layout: lesson
+title: Graphical Projections Part 1
+category: lesson
+tag: Drawing and Representation
+permalink: /drawing-representation/graphical-projections-1/
+subtitle: "Historical origins, West vs. East & the birth of scientific perspective"
+image: farm9.staticflickr.com/8039/7982988890_2b622a4669
+slideshow: 
+ - caption: Dürer, Albrecht. Institutiones Geometricae. 1532
+   embed: 120913172459-b8917a9b27e3454a8b5f99051e65b470
+resources:
+ - title: Youtube playlist
+   subtitle: "Drawing and Representation - SketchUp Introduction"
+   url: http://www.youtube.com/playlist?list=PLMcfZW6bt8uuRdDbmfXVw7euygbpyQXAr
+   type: youtube
+ - title: Youtube playlist
+   subtitle: "Graphical projections: Camera Obscura, Escher & perspective illusions"
+   url: http://www.youtube.com/playlist?list=PLMcfZW6bt8uu_Q_F9pZQ5tEd_ibUp1WyI
+   type: youtube
+ - title: SketchUp example
+   subtitle: "Graphical Projections - axonometric and perspective"
+   url: http://sketchup.google.com/3dwarehouse/details?mid=cf9453baaec3ca6e14e46bfdc8ea4da1
+   type: dropbox
+---
+
+The desire of capturing tridimensional objects into flat surfaces is as old as human history. In this first part of the lesson we discover the origin of graphical projections and the different techniques that humans have developed through centuries by using increasingly complex mathematical and geometric methods.
+
+An sketchup file is shared as part of the reference material explaining how parallel, isometric and perspective projections work.

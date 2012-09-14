@@ -1,0 +1,32 @@
+---
+layout: lesson
+title: Graphical Projections Part 2
+category: lesson
+tag: Drawing and Representation
+permalink: /drawing-representation/graphical-projections-2/
+subtitle: "Geometric & perspective illusions, from Guarino Guarini to Escher"
+image: farm9.staticflickr.com/8302/7982989526_5c50180fd2
+slideshow: 
+ - caption: Guarini, Guarino. Capella della Santissima Sindone, Turin. 1690
+   embed: 120914105508-4874ebc4152441648324d8f594b4188b
+resources:
+ - title: Youtube playlist
+   subtitle: "Drawing and Representation - SketchUp Introduction"
+   url: http://www.youtube.com/playlist?list=PLMcfZW6bt8uuRdDbmfXVw7euygbpyQXAr
+   type: youtube
+ - title: Youtube playlist
+   subtitle: "Graphical projections: Camera Obscura, Escher & perspective illusions"
+   url: http://www.youtube.com/playlist?list=PLMcfZW6bt8uu_Q_F9pZQ5tEd_ibUp1WyI
+   type: youtube
+ - title: SketchUp example
+   subtitle: "Graphical Projections - camera tutorial"
+   url: http://sketchup.google.com/3dwarehouse/details?mid=d42d5d7b397c275614e46bfdc8ea4da1
+   type: dropbox
+bibliography:
+ - title: "Doris Schattschneider. M.C. Escher: Visions of Symmetry. 2004"
+   url: http://www.goodreads.com/book/show/558548.M_C_Escher
+---
+
+The rapid development on geometry and mathematics during the Renaissance fostered creative uses of perspective on the forthcoming centuries. New discoveries on non-planar geometry on the nineteenth century century paved the ground for a highly experimental development on graphical projections which were able to represent abstract concepts like infinite spaces, recursive loops, fractals and non-euclidean geometries.
+
+An sketchup file is shared as part of the reference material explaining the basic construction of a camera and how focal length affects the perspective construction of a projected image.
