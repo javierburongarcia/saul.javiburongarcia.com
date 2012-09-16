@@ -6,6 +6,8 @@ tag: Drawing and Representation
 permalink: /drawing-representation/graphical-projections-1/
 subtitle: "Historical origins, West vs. East & the birth of scientific perspective"
 image: farm9.staticflickr.com/8039/7982988890_2b622a4669
+related_lessons: 
+ - title: "Graphical Projections Part 2"
 slideshow: 
  - caption: Dürer, Albrecht. Institutiones Geometricae. 1532
    embed: 120913172459-b8917a9b27e3454a8b5f99051e65b470

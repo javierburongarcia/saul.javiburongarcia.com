@@ -6,6 +6,8 @@ tag: Drawing and Representation
 permalink: /drawing-representation/graphical-projections-2/
 subtitle: "Geometric & perspective illusions, from Guarino Guarini to Escher"
 image: farm9.staticflickr.com/8302/7982989526_5c50180fd2
+related_lessons: 
+ - title: "Graphical Projections Part 1"
 slideshow: 
  - caption: Guarini, Guarino. Capella della Santissima Sindone, Turin. 1690
    embed: 120914105508-4874ebc4152441648324d8f594b4188b
