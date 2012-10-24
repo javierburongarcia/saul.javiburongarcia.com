@@ -22,6 +22,6 @@ bibliography:
    url: http://books.google.ie/books?id=5lMJ2uHt6J4C&lpg=PP1&ots=qYsGybdCZM&dq=the%20information%20technology%20revolution%20in%20architecture&hl=es&pg=PA12#v=onepage&q=the%20information%20technology%20revolution%20in%20architecture&f=false
 ---
 
-Computer graphics' history is not older than 4 decades but it has profoundly change visual representation and has been instrumental in the adoption of computers by the general public. This lesson gives a general introduction on the history of computer graphics  –Charles Csuri, Ivan Sutherland & Sketchpad…– and in particular those events, innovations and characters related with the use of computers as design tools.
+Computer graphics' history is not older than 4 decades but it has profoundly change visual representation and has been instrumental in the adoption of computers by the general public. This lesson gives a general introduction on the history of computer graphics introducing the work of pioneers like [Charles Csuri](http://en.wikipedia.org/wiki/Charles_Csuri) & [Ivan Sutherland](http://en.wikipedia.org/wiki/Ivan_Sutherland) and in particular those events, innovations and characters related with the use of computers as design tools.
 
 The last part of the lesson focuses on Architecture and shocases 4 different architectural practices by the way they use computers on their design process.
