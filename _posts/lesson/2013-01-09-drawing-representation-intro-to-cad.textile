@@ -1,0 +1,24 @@
+---
+layout: lesson
+title: Intro to CAD
+category: lesson
+tag: Drawing and Representation
+permalink: /drawing-representation/intro-to-cad/
+subtitle: "A brief history of sampling: from the daguerrotype to the fairlight CM1"
+image: farm9.staticflickr.com/8081/8364372690_dd51d8494c
+slideshow:
+ - caption: Peter Zumthor. Shelters for Roman Archaeological Site. 1985
+   embed: 130109101158-f63c0b390a4d402c837d16c433c48a33
+bibliography:
+ - title: Peter Szalapaj. The Digital Art of Architectural and Engineering Design. 2012
+   url: http://www.free-culture.cc/freeculture.pdf
+resources:
+ - title: Youtube playlist
+   subtitle: This playlist explores the basic concepts and tools for drawing construction details in Autocad
+   url: http://www.youtube.com/playlist?list=PLMcfZW6bt8uvZZ24qLybl8QZkSHQWnaKG
+   type: youtube
+---
+
+There are hundreds of different Computer Aided Design solutions availabe, from complex and expensive corporate solutions to open source alternatives. In this lesson, we discuss the features that commonly are presented in CAD sofware and which things we need to consider when choosing the best CAD software for our needs.
+
+Building Information Modelling (BIM) is an object-oriented approach to Computer Aided Design which is taking an increasingly interest in the last decade. We debate its potential and current limitations in student design studio environments.
