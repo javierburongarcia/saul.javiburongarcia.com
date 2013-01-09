@@ -4,7 +4,7 @@ title: Intro to CAD
 category: lesson
 tag: Drawing and Representation
 permalink: /drawing-representation/intro-to-cad/
-subtitle: "A brief history of sampling: from the daguerrotype to the fairlight CM1"
+subtitle: "An introduction on digital solutions for design"
 image: farm9.staticflickr.com/8081/8364372690_dd51d8494c
 slideshow:
  - caption: Peter Zumthor. Shelters for Roman Archaeological Site. 1985
@@ -19,6 +19,6 @@ resources:
    type: youtube
 ---
 
-There are hundreds of different Computer Aided Design solutions availabe, from complex and expensive corporate solutions to open source alternatives. In this lesson, we discuss the features that commonly are presented in CAD sofware and which things we need to consider when choosing the best CAD software for our needs.
+There are hundreds of different Computer Aided Design solutions available, from complex and expensive corporate solutions to open source alternatives. In this lesson, we discuss common features presented in every CAD software and point out which things we need to consider when choosing the best CAD software for our needs.
 
-Building Information Modelling (BIM) is an object-oriented approach to Computer Aided Design which is taking an increasingly interest in the last decade. We debate its potential and current limitations in student design studio environments.
+Building Information Modelling (BIM) is an object-oriented approach to Computer Aided Design which is generating an increasingly interest in the last decade. We debate its potential and current limitations in student design studio environments.
